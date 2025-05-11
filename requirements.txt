@@ -1,0 +1,9 @@
+pandas
+numpy
+stanza
+beautifulsoup4
+requests
+lxml
+matplotlib
+networkx
+tensorflow
