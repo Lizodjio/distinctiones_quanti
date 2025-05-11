@@ -1,0 +1,2093 @@
+<?xml-model href="schema/tei_distinguo.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="schema/tei_distinguo.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" sameAs="evreux" source="evreux-summa" ana="cat-alphabetical cat-collections" xml:id="guido-ebroicensis-summa">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Summa</title>
+            <author>
+               <persName xml:lang="fre">Guy d'Evreux</persName>
+               <persName xml:lang="lat">Guido Ebroicensis</persName>
+               <idno type="VIAF">24991990</idno>
+            </author>
+            <principal><ref corresp="mburghart"/></principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CNRS - CIHAM UMR 5648</publisher>
+            <date>2021-06-11</date>
+            <availability status="published">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA
+                  4.0</licence>
+            </availability>
+            <idno type="DOI">10.34847/nkl.ac2e18wc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T">Troyes, Bibliothèque municipale, 1305</witness>
+               <witness xml:id="V">Cité du Vatican, Bibliothèque Apostolique, Borghes. 340</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <abstract>
+            <p xml:id="evreux-summa-p-8eC6400x">Collection of distinctiones in the form of sermons by the dominican preacher Guy
+               d'Evreux.</p>
+         </abstract>
+         <creation>
+            <date notBefore="1250" notAfter="1299">Late 13th c.</date>
+         </creation>
+         <textClass>
+            <keywords>
+               <term type="subject">Religion</term>
+               <term type="subject">Preaching</term>
+               <term type="subject">Middle Ages</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div xml:id="evreux-summa-div-20wW7A7s">
+            <head>About the collection</head>
+            <p xml:id="evreux-summa-p-r68U4637">Work in progress</p>
+         </div>
+         <div xml:id="evreux-summa-div-6bo8p4R3">
+            <head>Witnesses</head>
+            <list xml:id="evreux-summa-list-w44h0nI1">
+               <item xml:id="evreux-summa-item-2a05dHWe" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=18665">Amiens, BM, 283 (14th c.)</item>
+               <item xml:id="evreux-summa-item-820R0qtc">Aosta, Archivio vescovile, 14 (14th c.)</item>
+               <item xml:id="evreux-summa-item-58nY65uI">Avignon, BM, 2591 (14th c.)</item>
+               <item xml:id="evreux-summa-item-u42l40Gq" facs="https://www.e-manuscripta.ch/bau/content/titleinfo/1275908">Bâle,
+                  Univers. B. V. 24 (early 14th c.) (pecia) (MEYER, Gustav und Max BURCKHARDT: Die
+                  mittelalterlichen Handschriften der Universitätsbibliothek Basel. Beschreibendes
+                  Verzeichnis. Abteilung B: Theologische Pergamenthandschriften. Erster Band:
+                  Signaturen B I 1 - B VIII 10. - Basel: Verlag der Universitätsbibliothek, 1960, p.
+                  502-514,
+                  http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0503a_b0502_jpg.htm)</item>
+               <item xml:id="evreux-summa-item-3562S0Bf">Berlin, theol. lat. quart. 81 (V. Rose, cod. Elector., 459) (14th c.). v.
+                  http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0704_b0311_jpg.htm</item>
+               <item xml:id="evreux-summa-item-4fm6N2u5">Bernkastel-Kues, St. Nikolaus-Hospital. Bibliothek, 122 (13th c.)</item>
+               <item xml:id="evreux-summa-item-koR3VW66">Bologna, Biblioteca com. dell'Archiginnasio A. 1039 (pecia) (late 13th
+                  c.)</item>
+               <item xml:id="evreux-summa-item-pK54oTk7">Bologna, Biblioteca com. dell'Archiginnasio A. 1040 (14th c.)</item>
+               <item xml:id="evreux-summa-item-ik017I1T" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=3731">Bordeaux, BM, 291 (14th c.)</item>
+               <item xml:id="evreux-summa-item-c6b18614" facs="https://sharedcanvas.be/IIIF/viewer/mirador/B_OB_MS260">Bruges,
+                  Stedelijke Bibl., 260 (14th c.)</item>
+               <item xml:id="evreux-summa-item-5f01616w" facs="https://sharedcanvas.be/IIIF/viewer/mirador/B_OB_MS261">Bruges,
+                  Stedelijke Publ., 261 (15th c.; 13th c.: 1293) (pecia)</item>
+               <item xml:id="evreux-summa-item-0k15Qv04" facs="https://sharedcanvas.be/IIIF/viewer/mirador/B_OB_MS262">Bruges,
+                  Stedelijke Publ., 262 (14th c.) (pecia)</item>
+               <item xml:id="evreux-summa-item-fx5v0h4E">Bruxelles, Bibliothèque Royale, 122-24 (or 1122-24, check), f. 83-199v (15th
+                  c.)</item>
+               <item xml:id="evreux-summa-item-0VoNAbD0" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=2531">Charleville, BM, 6a (14th c.)</item>
+               <item xml:id="evreux-summa-item-4iKLmim8" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=2532">Charleville, BM, 6b (14th c.)</item>
+               <item xml:id="evreux-summa-item-2J87k4n7" facs="http://www.mss.vatlib.it/guii/console?service=present&amp;term=@5Vat.lat.1252_ms&amp;item=1&amp;add=0&amp;search=1&amp;filter=&amp;relation=3&amp;operator=&amp;attribute=3040">Cité du Vatican, Bibliothèque Apostolique, Vat. lat. 1252 (14th-15th c.)</item>
+               <item xml:id="evreux-summa-item-Q036S813">Cité du Vatican, Bibliothèque Apostolique, Barb. 476</item>
+               <item xml:id="evreux-summa-item-Kc8qM618" facs="https://digi.vatlib.it/view/MSS_Borgh.65">Cité du Vatican, Bibliothèque
+                  Apostolique, Borghes. 65 (13th-14th c.)</item>
+               <item xml:id="evreux-summa-item-B6Yj7J63" facs="https://digi.vatlib.it/view/MSS_Borgh.66">Cité du Vatican, Bibliothèque
+                  Apostolique, Borghes. 66 (13th-14th c.)</item>
+               <item xml:id="evreux-summa-item-Q16s8gw0" facs="https://digi.vatlib.it/view/MSS_Borgh.216">Cité du Vatican, Bibliothèque
+                  Apostolique, Borghes. 216 (14th c.)</item>
+               <item xml:id="evreux-summa-item-6Nn4Pl53" facs="https://digi.vatlib.it/view/MSS_Borgh.216">Cité du Vatican, Bibliothèque
+                  Apostolique, Borghes. 235 (the beginning is missing, sermon 2 is the first
+                  complete one) (14th c.)</item>
+               <item xml:id="evreux-summa-item-vS52dQ2I" facs="https://digi.vatlib.it/view/MSS_Borgh.340">Cité du Vatican, Bibliothèque
+                  Apostolique, Borghes. 340 (early 14th c.) [the text is not of very good quality]</item>
+               <item xml:id="evreux-summa-item-22e075Ms" facs="https://overnia.bibliotheques-clermontmetropole.eu/notice.php?q=id:72120">Clermont-Ferrand, BM, 43 (first quarter of he 14th c.). 280 feuillets; parchemin;
+                  262 sur 175 mm. Provenance : Dominicains de Clermont.</item>
+               <item xml:id="evreux-summa-item-7WNKb0D2">Dôle, BM, 119 (13th c.)</item>
+               <item xml:id="evreux-summa-item-4H6o3R1y">Douai, 461 (13th c.; 13th c.: 1293) (pecia)</item>
+               <item xml:id="evreux-summa-item-4p6Od640">Douai, 507 (first quarter of the 14th c.)</item>
+               <item xml:id="evreux-summa-item-3bVK6v3L">Evreux, BM, 52 (14th c.; provenance: Abbaye de Notre-Dame de Lyre) v.
+                  https://ccfr.bnf.fr/portailccfr/ark:/06871/004D08140342</item>
+               <item xml:id="evreux-summa-item-66874PEe" facs="https://sammlungen.ub.uni-frankfurt.de/msma/content/titleinfo/4047084">Frankfurt, Stadt-und Universitätsbibliothek, Praed. 81 (14th c.: 1331) (not
+                  listed in Michaud-Quantin)</item>
+               <item xml:id="evreux-summa-item-0ll21sS6">Firenze, Biblioteca Riccardiana, 354 (early 14th c.)</item>
+               <item xml:id="evreux-summa-item-4Ik2yr6V">Graz, UB, 1436</item>
+               <item xml:id="evreux-summa-item-220Uo87I">Innsbrück, Univer., 343 (13th c.)</item>
+               <item xml:id="evreux-summa-item-Bx433GFt">Laon, BM, 301 (14th c.)</item>
+               <item xml:id="evreux-summa-item-tAd4600H" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=5495">Le
+                  Mans, BM, 195 (14th c.) (pecia)</item>
+               <item xml:id="evreux-summa-item-C7m1VY3U">Leipzig, Univers., 523 (ex F???? p. 168)(late 13th c.)</item>
+               <item xml:id="evreux-summa-item-18F457m6" facs="https://purl.pt/31615">Lisboa, Alcobac. CXXIV/20 / Bibl. Nac., Illum. 32
+                  (13th-14th) (vérifier si même ms ou 2 cotes différentes)</item>
+               <item xml:id="evreux-summa-item-36GX7ga8">London, BL, Harl. 2436 (14th c.)</item>
+               <item xml:id="evreux-summa-item-k73V1viB" facs="https://donum.uliege.be/handle/2268.1/4546">Liège, Univ. 344</item>
+               <item xml:id="evreux-summa-item-3T6c8Uxc">Maria Saal, 22, f. 1-173 (15th c.)</item>
+               <item xml:id="evreux-summa-item-7847510b">Mons, Bibliothèque publique, 1/103 (14th c.) (pecia, 102 pecie = list of 1304).
+                  V.
+                  https://biblio.umons.ac.be/public/webpdfviewer/web/viewer.html?file=../oa/a04d24a9-58d8-4788-93a0-cd8521b406d4.pdf
+                  (p. 3)</item>
+               <item xml:id="evreux-summa-item-34L2a072">Monte Cassino, 307 G, p. 1-85 (13th c.)</item>
+               <item xml:id="evreux-summa-item-LT53m05C">Munich, BSB, Clm 15510</item>
+               <item xml:id="evreux-summa-item-4133QYjX">Oxford, Bodleian 225 (West. Mss. 21114) (14th c.)</item>
+               <item xml:id="evreux-summa-item-6AQ6h581">Oxford, Bodleian, Laud. Misc. 348 (14th c.) (pecia)</item>
+               <item xml:id="evreux-summa-item-335neI02">Oxford, Jesus College, 8 (14th c.)</item>
+               <item xml:id="evreux-summa-item-wL8403GP">Oxford, Lincoln College, CXIII (early 14th) (pecia)</item>
+               <item xml:id="evreux-summa-item-P8d1054j">Padova, Univ., 1585 (14th c.)</item>
+               <item xml:id="evreux-summa-item-3Y17612u">Paris, Arsenal, 402 (13th c.) (pecia), v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc795879</item>
+               <item xml:id="evreux-summa-item-uims2F57">Paris, Arsenal, 468 (14th c.), v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc79659b</item>
+               <item xml:id="evreux-summa-item-NTCK0sIS">Paris, BnF, Lat. 12428, pecia (105 pecie) (14th c., anciennes collections de
+                  l'Abbaye de Saint-Germain), v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc73706x</item>
+               <item xml:id="evreux-summa-item-bS655Hu0">Paris, BnF, Lat. 13585, f. 51v (14th c.; anciennes collections de l'Abbaye de
+                  Saint-Germain), v. https://archivesetmanuscrits.bnf.fr/ark:/12148/cc74520p</item>
+               <item xml:id="evreux-summa-item-oaJo6CgC">Paris, BnF, Lat. 14944 (14th c.; Saint-Victor), v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc75672h</item>
+               <item xml:id="evreux-summa-item-ejBQ52rS">Paris, BnF, Lat. 14969 (14th-15th c.; Saint-Victor), v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc756885</item>
+               <item xml:id="evreux-summa-item-8f4B72O8" facs="https://gallica.bnf.fr/ark:/12148/btv1b9077895n.r=Latin%2014973?rk=21459;2">Paris, BnF, Lat. 14973 (15th c.; Saint-Victor)</item>
+               <item xml:id="evreux-summa-item-i8y5Ojey" facs="https://gallica.bnf.fr/ark:/12148/btv1b9067185k">Paris, BnF, Lat. 15966,
+                  f. 16-216v (14th c. : 1319; Sorbonne), v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc764679 (la description rapide ne
+                  mentionne pas les sermons de Guy)</item>
+               <item xml:id="evreux-summa-item-IpQI573y">Paris, BnF, Lat. 16491 (13th-14th c.; 13th c.: 1293) (Sorbonne) (pecia) v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc76930v</item>
+               <item xml:id="evreux-summa-item-F23lbueU" facs="https://gallica.bnf.fr/ark:/12148/btv1b90777173.r=Latin%2016492?rk=21459;2">Paris, BnF, Lat. 16492 (13th-14th c.; Sorbonne) v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc76930v</item>
+               <item xml:id="evreux-summa-item-lOF05kYH">Paris, BnF, Lat. 16494 (13th-14th c.; Sorbonne) v.
+                  https://archivesetmanuscrits.bnf.fr/ark:/12148/cc76930v</item>
+               <item xml:id="evreux-summa-item-H63P2oF7">Paris, BnF, Lat. 18180 (14th c.; Jacobins de la rue Saint-Honoré)</item>
+               <item xml:id="evreux-summa-item-170T47f0" facs="https://gallica.bnf.fr/ark:/12148/btv1b100335172">Paris, BnF, nouv. acqu.
+                  lat. 206, f. 3r-57v (13th c.)</item>
+               <item xml:id="evreux-summa-item-218i4240" facs="https://gallica.bnf.fr/ark:/12148/btv1b10033086m">Paris, BnF, nouv. acqu.
+                  lat. 498 (early 14th c.; couvent des Jacobins de Caen)</item>
+               <item xml:id="evreux-summa-item-LeAoF7Mq">Poznan, Miejska Biblioteka Publiczna im. Edwarda Raczyńskiego, Raczinkich 172
+                  (14th c.) (pecia) (not in Michaud-Quantin))</item>
+               <item xml:id="evreux-summa-item-0Wk3khUO" facs="http://www.manuscriptorium.com/apps/index.php?direct=record&amp;pid=AIPDIG-NKCR__XIV_H_19____0D0NU75-cs#search">Praha, UB, XIV H 19, f. 11-148v (13th-14th c.)</item>
+               <item xml:id="evreux-summa-item-5o84cL3f" facs="https://bvmm.irht.cnrs.fr/resultRecherche/resultRecherche.php?COMPOSITION_ID=3966">Reims, BM, 587 (13th c.); vérifier, pas sûre que ce ms contienne la collection.
+                  Listé dans Schneyer.</item>
+               <item xml:id="evreux-summa-item-40488426" facs="https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/25512/manifest">Soissons, BM, 132 (14th c.)</item>
+               <item xml:id="evreux-summa-item-Y3456qQp" facs="https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/25513/manifest">Soissons, BM, 133 (14th c.) (pecia)</item>
+               <item xml:id="evreux-summa-item-S8G3064J" facs="https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/25514/manifest">Soissons, BM, 134 (14th c.: 1316) (pecia)</item>
+               <item xml:id="evreux-summa-item-02b574so" facs="https://bvpb.mcu.es/es/catalogo_imagenes/grupo.do?path=11000157">Tarragona, Biblioteca Pública del Estado en Tarragona, Ms. 60 (14th c.)<note>268
+                     h. (2 col.) : perg. ; 23 x 15 cm Tit. en Domínguez Bordona: Sermones de tempore
+                     et de sanctis Copia digital. Madrid : Ministerio de Cultura. Subdirección
+                     General de Coordinación Bibliotecaria, 2006 Referencias: Dominguez Bordona,
+                     Jesús. El Escritorio y la primitiva Biblioteca de Santes Creus. Tarragona:
+                     Sugrañes Hnos., 1952, n. 60 Capitales en rojo y azul Iniciales con adornos
+                     caligráficos Escr. gótica Procede de la desamortización del Monasterio de
+                     Santes Creus (Tarragona)</note>
+               </item>
+               <item xml:id="evreux-summa-item-47357j5A">Todi, Bibl. Comunale, 166 (14th c.) (pecia) (pas dans Michaud-Quantin)</item>
+               <item xml:id="evreux-summa-item-7q0rIJIk">Toulouse, BM, 313 (14th c.) (trou dans la BVMM, demander si normal)</item>
+               <item xml:id="evreux-summa-item-5L0oR24e">Tours, BM, 479 (14th c.)</item>
+               <item xml:id="evreux-summa-item-56CkUv76">Tours, BM, 484 (14th c.)</item>
+               <item xml:id="evreux-summa-item-W3n7r403" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1780">Troyes, BM, 1139 (14th c.) (pecia)</item>
+               <item xml:id="evreux-summa-item-15iY1132" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=2019">Troyes, BM, 1140 (14th c.)</item>
+               <item xml:id="evreux-summa-item-S1Bco7o0" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1808">Troyes, BM, 1305 (14th c.) (pecia)</item>
+               <item xml:id="evreux-summa-item-437i7e01" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1882">Troyes, BM, 1702 (early 14th c.) (pecia)</item>
+               <item xml:id="evreux-summa-item-4ooN1W85" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=1908">Troyes, BM, 1754 (pecia) (not in Michaud-Quantin)</item>
+               <item xml:id="evreux-summa-item-3W3388h7">Troyes, BM, 1935 (14th c.)</item>
+               <item xml:id="evreux-summa-item-odD7uNAn" facs="https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=2101">Troyes, BM, 1950 (14th c.)</item>
+               <item xml:id="evreux-summa-item-Xq4Q4h7c">Uppsala, Univers. C. 289 (1st half of the 14th c.), v.
+                  http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0506c_a0302_jpg.htm</item>
+               <item xml:id="evreux-summa-item-00vx27yp">Uppsala, Univers. C. 315 (1st half of the 14th c.), v.
+                  http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0506d_a0125_jpg.htm</item>
+               <item xml:id="evreux-summa-item-47kuo4H4" facs="https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/34151/manifest">Valenciennes, BM, 226 (14th c.)</item>
+               <item xml:id="evreux-summa-item-aXvthUOQ">Worcester Cathedral, Q. 12 (15th c.) (pecia)</item>
+            </list>
+            <p xml:id="evreux-summa-p-ge7wqEAg">Lost manuscripts: Chartres 227 (lost in 1944); Tours, BM, 508 (destroyed in 1944).
+               Manuscripts used to be kept at the dominican convents of SS. Petri et Pauli in
+               Venice, cod. 286, and Vienna, N. 50. </p>
+            <p xml:id="evreux-summa-p-jLICdl5K">False attribution according to Michaud-Quantin: Paris, BnF, Lat. 16493</p>
+            <p xml:id="evreux-summa-p-gf3u87dk">Sermones singuli (according to Schneyer): Barcelona, Arch. de la Corona de Aragon,
+               Ripoll 187; Bordeaux, VM, 282; Kiel, UB 65; Paris, BnF, Latin 14799, f. 276v-274r;
+               Paris, BnF, Latin 14929, f. 270; S. Gallen, 1024; Troyes, BM, 2023, f. 95r; Uppsala,
+               UB, C 317. </p>
+            <p xml:id="evreux-summa-p-J4E1n2fA">Also (according to Kaeppelli): Avignon, BM, 603, f. 1-10v (13th c., fragment); Monte
+               Cassino, 457 I (14th c.), p. 424, 432; Paris, BnF, Latin 14799, f. 268-272vb (14th
+               c.); Uppsala C 387, f. 10-35v (14th c.).</p>
+            <p xml:id="evreux-summa-p-7Yd86mN8">Also : Cambridge, Peterhouse, 217 (late 13th-early 14th), the end is missing
+               (https://archive.org/details/cu31924029604778/page/n297/mode/2up); Firenze,
+               Biblioteca Nazionale, Conv. Sopp. (S. Marco) J. V. 7, f. 1-12 ("Abstractiones epist.
+               fr. Guidonis Galli"); Hobart (Australia), Univ. of Tasmania Libr. 3 (13th-14th c.),
+               fragment; Oxford, New Coll. 363 (fragm. 2 ff); Oxford, Merton College, Merton College
+               73. e. 6; Paris, BnF, Lat. 17516, f. 101 (fragment??) (14th c.; Carmes) v.
+               https://archivesetmanuscrits.bnf.fr/ark:/12148/cc68612k ; Roma, Biblioteca
+               Casanatense, 333, f. 102rb-109rt (sic in Schneyer) or 102v-109v (sic in Kappelli)
+               (13th-14th c.); Todi, BC 165, f. 143 (De mortuis); Troyes, BM, 1959, f. 37-49
+               (13th-14th c.) (https://bvmm.irht.cnrs.fr/consult/consult.php?reproductionId=906);
+               Uppsala, UB C 387, f. 10-35 (excerpta). </p>
+         </div>
+         <div xml:id="evreux-summa-div-2Y7708gN">
+            <head>Bibliography</head>
+            <list xml:id="evreux-summa-list-0b1A0430">
+               <item xml:id="evreux-summa-item-2kiYv4LL">Pierre Michaud-Quantin, « Guy d'Évreux O.P., technicien du sermonnaire médiéval
+                  », in <title>Archivum Fratrum Praedicatorum</title>, 20, 1950, p. 213-233</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div xml:id="evreux-summa-div-UPY61AsB" sameAs="evreux_0001" type="distinctio">
+            <head>Prope<note>Dominica Ia in adventu; the distinctio itself begins on f.
+               2ra</note></head>
+            <list xml:id="evreux-summa-list-662u7u43" type="distinctio">
+               <head>Homo solet dici propinquus alteri et prope propter quatuor rationes propter
+                  quas suo modo potest dici quod Christus est prope nobis:</head>
+               <item xml:id="evreux-summa-item-3S16gRq5">primo solet homo dici prope esse uel propinquus alii ratione consanguinee uel
+                  affinis copulationis, quando inter ipsos consanguinitas uel affinitas
+                  copulatur;</item>
+               <item xml:id="evreux-summa-item-74Kg30DK">secundo solet homo esse propinquus alii ratione connexe dilectionis, quando
+                  inter eos pax et familiaritas confirmatu;</item>
+               <item xml:id="evreux-summa-item-3a6370v8">tertio solet homo esse propinquus alii uel prope ratione propinquus
+                  commorationis, quando prope alterum commoratur;</item>
+               <item xml:id="evreux-summa-item-2102be15">quarto dicitur homo esse prope ratione proxime reuersionis, quando scilicet
+                  aduentus eius minime retardatur.</item>
+            </list>
+            <div xml:id="evreux-summa-div-uK700iv8" type="witnesses">
+               <list xml:id="evreux-summa-list-R0rSa5Qy">
+                  <item xml:id="evreux-summa-item-58q63Yw8" ana="#V">
+                     <ref n="1r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0005"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-IK5wI54f" ana="#T">
+                     <ref n="1r" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508459&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-A6IId3WL" sameAs="evreux_0002" type="distinctio">
+            <head>Suscipere<note>Dominica IIa in adventu; the distinctio itself begins on f.
+                  5ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-6245N048" type="distinctio">
+               <head>Sicut uidemus ad oculum quod quatuor de causis solet homo suscipere alium
+                  corporaliter, ita Christus suscepit nos et suscipit et suscipiet:</head>
+               <item xml:id="evreux-summa-item-l56NY174">primo solet homo alium suscipere ut ab ipso eius hereditas ualeat conseruari
+                  uel etiam restaurari;</item>
+               <item xml:id="evreux-summa-item-j871dpaF">secundo solet homo alium suscipere, ut secum ualeat commorari;</item>
+               <item xml:id="evreux-summa-item-FD602Y4B">tertio solet homo aliquando alium suscipere ut inter eos pax et amicitia ualeat
+                  reformari;</item>
+               <item xml:id="evreux-summa-item-m37SeIra">quarto solet aliquando homo alium suscipere ut ad dignitatem ualeat
+                  sublimari.</item>
+            </list>
+            <div xml:id="evreux-summa-div-7L6aBv32" type="witnesses">
+               <list xml:id="evreux-summa-list-140P1106">
+                  <item xml:id="evreux-summa-item-270x017H" ana="#V">
+                     <ref n="2r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0007"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-63WnmV63" ana="#T">
+                     <ref n="4rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508462&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-B10AYRY0" sameAs="evreux_0003" type="distinctio">
+            <head>Uenire<note>Dominica IIIa in adventu; the distinctio itself begins on f.
+                  8rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-anVtIv72" type="distinctio">
+               <head>Sicut uidemus quod aliquis magnus Dominus quatuor de causis solet uenire, in
+                  aliquam suam uillam, sic Christus specialiter uenit et ueniet in mundum:</head>
+               <item xml:id="evreux-summa-item-jv5NI5A4">primo solet aliquis magnus Dominus uenire in aliquam uillam ut eam de manu
+                  aduersariorum eripiat;</item>
+               <item xml:id="evreux-summa-item-6642cc0J">secundo solet uenire aliquis magnus in aliquam uillam ut destructam reparet et
+                  reficiat;</item>
+               <item xml:id="evreux-summa-item-I076A873">tertio solet aliquis dominus uenire in aliquam uillam ut se recreet et
+                  reficiat;</item>
+               <item xml:id="evreux-summa-item-OdqLm606">quarto solet aliquis uenire in aliquam ciuitatem uel uillam ut a seruientibus
+                  compotum audiat.</item>
+            </list>
+            <div xml:id="evreux-summa-div-U3Hym4T1" type="witnesses">
+               <list xml:id="evreux-summa-list-H20NBf80">
+                  <item xml:id="evreux-summa-item-0eS1d543" ana="#V">
+                     <ref n="3v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0010"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-B6M1Ug20" ana="#T">
+                     <ref n="7vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508466&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-F2K41047" sameAs="evreux_0004" type="distinctio">
+            <head>Gaudere<note>Dominica IIa in adventu; the distinctio itself begins on f.
+                  11vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-EoQ4kkP5" type="distinctio">
+               <head>Sicut uidemus in mundo quod quatuor genera hominum solent gaudere corporaliter,
+                  ita spiritualiter quatuor genera hominum gaudere possunt:</head>
+               <item xml:id="evreux-summa-item-qL06lql6">primo solet gaudere qui habet aduersarium fortissimum quando habet fortissimum
+                  ad nitorem per quem uiriliter deffendatur;</item>
+               <item xml:id="evreux-summa-item-5SjPf128">secundo solet homo gaudere qui est in odio erga dominum quando inter eos pax et
+                  concordia reformatur;</item>
+               <item xml:id="evreux-summa-item-aGbp31m6">tertio solet hoo gaudere qui debet respicere magnum hospitem non bene
+                  muniatur;</item>
+               <item xml:id="evreux-summa-item-t76RK2yn">quaro solet gaudere homo pauper quando ad honoris fastigium sublimatur.</item>
+            </list>
+            <div xml:id="evreux-summa-div-087aj870" type="witnesses">
+               <list xml:id="evreux-summa-list-0ex47u22">
+                  <item xml:id="evreux-summa-item-POLxM70y" ana="#V">
+                     <ref n="5r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0013"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-K27SWC45" ana="#T">
+                     <ref n="10vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508469&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-RM08Pn18" sameAs="evreux_0005" type="distinctio">
+            <head>Sol<note>In uigilia natiuitatis Domini; the distinctio itself begins on f.
+                  15ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-6517nG7S" type="distinctio">
+               <head>Christus comparatur soli propter quatuor, in quibus sol excedit alia corpora
+                  superiora in quibus Christus alios homines supergreditur et transcendit:</head>
+               <item xml:id="evreux-summa-item-U3OA8p0s">primo quia sol est luminare maius eo quod resplendet lucidius;</item>
+               <item xml:id="evreux-summa-item-l16eL21h">secundo sol inter luminaria est luminare calidius;</item>
+               <item xml:id="evreux-summa-item-Im7s0PR5">tertio sol inter luminaria est luminare utilius;</item>
+               <item xml:id="evreux-summa-item-58d3D1wq">quarto sol inter luminaria est luminare iocondius.</item>
+            </list>
+            <div xml:id="evreux-summa-div-5T3735b4" type="witnesses">
+               <list xml:id="evreux-summa-list-82cJ557u">
+                  <item xml:id="evreux-summa-item-yEj757L4" ana="#V">
+                     <ref n="6v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0016"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-w2Hce4xU" ana="#T">
+                     <ref n="14rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508472&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-rH6e5N00" sameAs="evreux_0006" type="distinctio">
+            <head>Puer Christus<note>In die natiuitatis; the distinctio itself begins on f.
+                  18rb</note></head>
+            <list xml:id="evreux-summa-list-7Qv25808" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod Saluator noster dicitur puer, et
+                  quia quatuor bone conditiones sunt in puero que in nostro Saluatore
+                  eminentius:</head>
+               <item xml:id="evreux-summa-item-Rn4R0jj8">primo puer uult mundius excubari;</item>
+               <item xml:id="evreux-summa-item-a5kvIT47">secundo potest puer facilius pacificari;</item>
+               <item xml:id="evreux-summa-item-w6185144">tertio puer solet delicatius educari;</item>
+               <item xml:id="evreux-summa-item-0783404x">quarto puer uult frequentius deportari.</item>
+            </list>
+            <div xml:id="evreux-summa-div-56e2K3w8" type="witnesses">
+               <list xml:id="evreux-summa-list-r0MtxDn4">
+                  <item xml:id="evreux-summa-item-1K7s7wjy" ana="#V">
+                     <ref n="8r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0019"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-C6616848" ana="#T">
+                     <ref n="17va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508476&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-VP0QSJ0P" sameAs="evreux_0007" type="distinctio">
+            <head>Missus Christus<note>Dominica Ia oct. natiuitatis; the distinctio itself begins on
+                  f. 21rb</note></head>
+            <list xml:id="evreux-summa-list-2lv375Mr" type="distinctio">
+               <head>Notandum quod sicut uidemus ad oculum quod quatuor genera hominum indigent quod
+                  ad eorum negocium aliquis mittatur propter quatuor, ita quatuor de causis missus
+                  fuit Filius Dei ad quatuor genera hominum:</head>
+               <item xml:id="evreux-summa-item-U70557WO">primo indigent incarcerati liberatore;</item>
+               <item xml:id="evreux-summa-item-kH26V7G2">secundo indigent obsessi et inuasi auxiliatore siue defensore;</item>
+               <item xml:id="evreux-summa-item-q6q607F7">tertio indigent rei reconciliatore;</item>
+               <item xml:id="evreux-summa-item-pt610kG4">quarto indigent laborantes recreatore siue remuneratore.</item>
+            </list>
+            <div xml:id="evreux-summa-div-4NyD38b6" type="witnesses">
+               <list xml:id="evreux-summa-list-qaC38U1l">
+                  <item xml:id="evreux-summa-item-7V0frk5d" ana="#V">
+                     <ref n="9r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0021"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-mB07d0d0" ana="#T">
+                     <ref n="20va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508479&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-DA83x7xf" sameAs="evreux_0008" type="distinctio">
+            <head>Circumcisio, circoncidere<note>In circumcisione Domini; the distinctio itself
+                  begins on f. 24rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-R6OA570d" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod uidemus quod aliqua res
+                  corporaliter, unde causis solet circumcidi "gale estre taille on re
+                  compare":</head>
+               <item xml:id="evreux-summa-item-L7c05474">primo solet aliqua res circumcidi ne per ipsam alia corrumpatur;</item>
+               <item xml:id="evreux-summa-item-7127e278">secundo solet aliqua res circumcidi ut fructus amplior habeatur;</item>
+               <item xml:id="evreux-summa-item-00o0302g">tertio solet res aliqua circumcidi ut a realia melius cognoscatur;</item>
+               <item xml:id="evreux-summa-item-8HE36J4f">quarto solet res aliqua circumcidi "que in an la puisse miex ascer e
+                  ordener".</item>
+            </list>
+            <div xml:id="evreux-summa-div-061O88a1" type="witnesses">
+               <list xml:id="evreux-summa-list-U31r8C73">
+                  <item xml:id="evreux-summa-item-gY467005" ana="#V">
+                     <ref n="10v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0024"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-DtA2c8a6" ana="#T">
+                     <ref n="23va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508482&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-Hi1X7KFl" sameAs="evreux_0009" type="distinctio">
+            <head>Rex<note>In epiphania Domini; the distinctio itself begins on f. 27rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-00Jl10Dw" type="distinctio">
+               <head>Notandum quod sicut uidemus quod quatuor conditiones comendari in rege que
+                  excellentiori modo sunt in isto rege:</head>
+               <item xml:id="evreux-summa-item-146TI404">primum est quando est regni sui sapiens gubernator;</item>
+               <item xml:id="evreux-summa-item-630763W4">quando est benignissimus condonator;</item>
+               <item xml:id="evreux-summa-item-5VD53O1P">quando est malefactorum strenuus expugnator;</item>
+               <item xml:id="evreux-summa-item-3xY3D4o8">quando est largus remunerator.</item>
+            </list>
+            <div xml:id="evreux-summa-div-30g2Kx2y" type="witnesses">
+               <list xml:id="evreux-summa-list-0Q4d6841">
+                  <item xml:id="evreux-summa-item-400oH0jA" ana="#V">
+                     <ref n="11v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0026"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-tQA8iEri" ana="#T">
+                     <ref n="26rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508484&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-64JijIlg" sameAs="evreux_0010" type="distinctio">
+            <head>Placere<note>Dominica in oct. epiphanie; the distinctio itself begins on f.
+                  31va</note>
+            </head>
+            <list xml:id="evreux-summa-list-14trjS3x" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod sicut uidemus ad sensum quod homo
+                  solet placere alii propter quatuor, ita propter quatuor loquendo spiritualiter
+                  placet homo Deo:</head>
+               <item xml:id="evreux-summa-item-2lJ67Vv6">primo enim solet homo placere alii si honestius conuersetur;</item>
+               <item xml:id="evreux-summa-item-Th6872K8">secundo solet homo placere alii si erga eum offensum humiliter
+                  corrigatur;</item>
+               <item xml:id="evreux-summa-item-53cPHlBO">tertio placet homo alii si pro ipso ardua aggrediatur;</item>
+               <item xml:id="evreux-summa-item-QeIV2Jkh">quarto placet homo alii si ab ipso pre omnibus aliis diligatur.</item>
+            </list>
+            <div xml:id="evreux-summa-div-41bEXl6r" type="witnesses">
+               <list xml:id="evreux-summa-list-K5000275">
+                  <item xml:id="evreux-summa-item-32eRJym0" ana="#V">
+                     <ref n="13r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0029"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-52xc3L23" ana="#T">
+                     <ref n="30va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508489&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-58glT243" sameAs="evreux_0011" type="distinctio">
+            <head>Humilitas<note>Dominica Ia post oct. epiphanie; the distinctio itself begins on f.
+                  34va</note>
+            </head>
+            <list xml:id="evreux-summa-list-no7SMg7j" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod quatuor genera hominum solent se
+                  humiliare corporaliter propter quatuor, ita nos ad modum illorum debemus esse
+                  humiles propter quatuor:</head>
+               <item xml:id="evreux-summa-item-m653SO68">primo solet se humiliare pauper coram diuite ut elemosinam ualeat
+                  impetrare;</item>
+               <item xml:id="evreux-summa-item-1U0n183v">secundo solet humiliare offendens erga offensum ut eum possit
+                  pacificare;</item>
+               <item xml:id="evreux-summa-item-18884P40">tertio solet se humiliare citatus coram iudice ut possit sententiam
+                  euitare;</item>
+               <item xml:id="evreux-summa-item-5tA7N314">quarto solent se humiliare serui erga dominum ut eos studeant exaltare.</item>
+            </list>
+            <div xml:id="evreux-summa-div-t26HU787" type="witnesses">
+               <list xml:id="evreux-summa-list-u05v6au2">
+                  <item xml:id="evreux-summa-item-1020b45c" ana="#V">
+                     <ref n="14v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0032"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-N68E3385" ana="#T">
+                     <ref n="33vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508492&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-2O0W7p3R" sameAs="evreux_0012" type="distinctio">
+            <head>Malum<note>Dominica IIa post oct. epiphanie; the distinctio itself begins on f.
+                  37va</note>
+            </head>
+            <list xml:id="evreux-summa-list-d5oL68O1" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quam debemus istud malum uitare, quod
+                  uidemus quod isti qui ista mala faciunt corporaliter, quatuor incurrunt propter
+                  que debemus spiritualiter uitare malum peccati:</head>
+               <item xml:id="evreux-summa-item-3781540G">primo isti malefactores sustinent confusionem;</item>
+               <item xml:id="evreux-summa-item-e38XnO7M">secundo isti mala facientes recluduntur in passionem;</item>
+               <item xml:id="evreux-summa-item-087801n7">tertio amittunt hereditatis possessionem;</item>
+               <item xml:id="evreux-summa-item-h1f5J10k">quarto incurrunt crudelem dampnationem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-3cL1hN4V" type="witnesses">
+               <list xml:id="evreux-summa-list-0qS0e833">
+                  <item xml:id="evreux-summa-item-2k31260Y" ana="#V">
+                     <ref n="15v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0034"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-3qlO0201" ana="#T">
+                     <ref n="37ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508495&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-04740j3E" sameAs="evreux_0013" type="distinctio">
+            <head>Plenitudo<note>Dominica IIIa post oct. epiphanie; the distinctio itself begins on
+                  f. 40rb</note></head>
+            <list xml:id="evreux-summa-list-B6ao4Ra0" type="distinctio">
+               <head>Ad nostram edificationem quia in hiis uerbis fit mentio de plenitudine dicere
+                  possumus quia sicut uidemus naturaliter quod quatuor genera <unclear>rr</unclear>
+                  solent esse plena ex quatuor, ideo quatuor effectus consequentur, sic
+                  spiritualiter inueniuntur quatuor genera hominum plena quatuor rebus et ex inde
+                  quatuor effectus consecuntur:</head>
+               <item xml:id="evreux-summa-item-Y01tyY8C">primo est aliquando aer plenus uento et agitatur;</item>
+               <item xml:id="evreux-summa-item-7610X63s">secundo solet esse plenum corpus malis humoribus et infirmatur;</item>
+               <item xml:id="evreux-summa-item-0Dhj57Vh">tertio est ager plenus herbis et floribus et odor propalatur;</item>
+               <item xml:id="evreux-summa-item-35677421">quarto dies est plenus sole et illustratur.</item>
+            </list>
+            <div xml:id="evreux-summa-div-ey2x8s17" type="witnesses">
+               <list xml:id="evreux-summa-list-l04r1FWS">
+                  <item xml:id="evreux-summa-item-0xk85q70" ana="#V">
+                     <ref n="17r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0037"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-R6oWP00N" ana="#T">
+                     <ref n="39vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508498&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-q0p58BvL" sameAs="evreux_0014" type="distinctio">
+            <head>Eligere<note>Dominica IIIIa post oct. epiphanie; the distinctio itself begins on
+                  f. 42vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-883nW8wF" type="distinctio">
+               <head>Notandum quod ad hoc quod simus a Deo electi aliqua requiruntur et uidemus quod
+                  libenter IIII genera hominum solent ab hominibus eligi propter IIII, ita si ista
+                  IIII fuerint in nobis erimus a Deo electi:</head>
+               <item xml:id="evreux-summa-item-22076S4d">primo solet homo eligere coniugere pulcriorem ad matrimonium copulandum;</item>
+               <item xml:id="evreux-summa-item-fy11u7B0">secundo libenter eligit homo pugilem fortiorem ad aduersarium
+                  impugnandum;</item>
+               <item xml:id="evreux-summa-item-qkQbR0jA">tertio eligit libenter homo terram fertiliorem ad fructificandum;</item>
+               <item xml:id="evreux-summa-item-6KB336dx">quarto solet homo eligere libenter operarium fidelem ad laborandum.</item>
+            </list>
+            <div xml:id="evreux-summa-div-676RH072" type="witnesses">
+               <list xml:id="evreux-summa-list-VPW05Lr1">
+                  <item xml:id="evreux-summa-item-8YM5G1s7" ana="#V">
+                     <ref n="18r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0039"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-hH8A64o4" ana="#T">
+                     <ref n="42ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508500&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-P15cKgY0" sameAs="evreux_0015" type="distinctio">
+            <head>Currere<note>Dominica in LXXa; the distinctio itself begins on f. 45vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-4n02KJ3L" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod sicut quatuor monent hominem ad
+                  currendum corporaliter, ita quatuor debent hominem mouere ad currendum
+                  spiritualiter per bona opera:</head>
+               <item xml:id="evreux-summa-item-OA883G38">primum quod monet hominem ad currendum corporaliter est breuitas temporis quod
+                  habet operis exequendi;</item>
+               <item xml:id="evreux-summa-item-Y26G207y">secundum quod monet ad currendum corporaliter est amor periculi euadendi</item>
+               <item xml:id="evreux-summa-item-s70Ws67j">tertio solet homo currere corporaliter causa temporis male expensi
+                  recuperandi;</item>
+               <item xml:id="evreux-summa-item-t8gq84XN">quarto solit aliquis currere causa ad obtinendi.</item>
+            </list>
+            <div xml:id="evreux-summa-div-60Q1rY1X" type="witnesses">
+               <list xml:id="evreux-summa-list-I053B081">
+                  <item xml:id="evreux-summa-item-07k838s4" ana="#V">
+                     <ref n="19r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0041"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-88gpy3lr" ana="#T">
+                     <ref n="45ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508503&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-a10A70e4" sameAs="evreux_0016" type="distinctio">
+            <head>Habitare<note>Dominica in LXa; the distinctio itself begins on f. 48vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-02d3e5p2" type="distinctio">
+               <head>Notandum causa edificationis quod homo solet quatuor de causis in baliquo loco
+                  corporali habitare, ita quatupr requiruntur spiritualiter ad hoc quod habitet
+                  Christus in homine:</head>
+               <item xml:id="evreux-summa-item-1Bw78eb6">primo solet homo habitare in aliqua uilla prope mundum et pulcrum hospitium ne
+                  maculetur;</item>
+               <item xml:id="evreux-summa-item-8o0305BX">secundum quod solet hominem attrahere ad habitandum in aliquo loco est amoris
+                  incendium ut recreetur;</item>
+               <item xml:id="evreux-summa-item-31s78fi3">tertium quod solet hominem attrahere ad habitandum in aliquo loco est placiter
+                  obsequium ut honoretur;</item>
+               <item xml:id="evreux-summa-item-Qu7xq0HB">quartum quod solet hominem attrahere ad habitandum in aliquo loco est forte et
+                  securum presidium ne ab impugnantibus conturbetur, quod parat sibi resistentium
+                  fortitudo.</item>
+            </list>
+            <div xml:id="evreux-summa-div-8X65857W" type="witnesses">
+               <list xml:id="evreux-summa-list-5Y73524r">
+                  <item xml:id="evreux-summa-item-08k237EG" ana="#V">
+                     <ref n="20v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0044"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-rc0i8561" ana="#T">
+                     <ref n="48ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508506&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-6Ci2V2D0" sameAs="evreux_0017" type="distinctio">
+            <head>Cognoscere<note>Dominica in La; the distinctio itself begins on f. 52ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-m11VCF68" type="distinctio">
+               <head>Notandum quod sicut uidemus quod ad hoc quod aliqua res corporaliter
+                  cognoscatur quatuor necessaria requiruntur, ita ad hoc quod Deus a nobis
+                  cognoscatur qui est beatitudo nostra, quatuor sunt necessaria spiritualiter
+                  intellecta:</head>
+               <item xml:id="evreux-summa-item-5ogvp5ws">primo ad hoc quod aliqua res corporaliter cognoscatur requiritur quod aliqua
+                  claritas diffundatur;</item>
+               <item xml:id="evreux-summa-item-3LhyXuxt">secundo requiritur ad hoc quod res corporaliter cognoscatur quod potentia
+                  uisiua ad eam dirigatur;</item>
+               <item xml:id="evreux-summa-item-E2O7Hfn1">tertio requiritur quod debita proportio et distantia habeatur;</item>
+               <item xml:id="evreux-summa-item-xPb2550X">quarto requiritur quod oculus ibi figitur uel teneatur.</item>
+            </list>
+            <div xml:id="evreux-summa-div-v33YJ8sU" type="witnesses">
+               <list xml:id="evreux-summa-list-076211NH">
+                  <item xml:id="evreux-summa-item-4N06o0fY" ana="#V">
+                     <ref n="22r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0047"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-16t28Le4" ana="#T">
+                     <ref n="51rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508509&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-It0s651j" sameAs="evreux_0018" type="distinctio">
+            <head>Conuertere<note>In capite ieiunii; the distinctio itself begins on f. 55rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-813gcuC5" type="distinctio">
+               <head>Conuersio ista nichil aliud est quod ad Deum reuersio et sicut uidemus quod
+                  aliquis qui aliam uia incepit solet se conuertere et regredi quatuor corporaliter
+                  si debemus ad Deum conuerti spiritualiter:</head>
+               <item xml:id="evreux-summa-item-7f4y701A">primo solet homo conuerti propter uie quam arripuit abhominationem;</item>
+               <item xml:id="evreux-summa-item-5bi4m732">secundo solet homo se reuertere uel regredi propter periculi
+                  euitationem;</item>
+               <item xml:id="evreux-summa-item-47v86H3g">tertio solet homo se conuertere propter rei amisse recuperationem;</item>
+               <item xml:id="evreux-summa-item-01X635ty">quarto solet aliquis se conuertere propter alicuius magni reuocationem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-20vqugQO" type="witnesses">
+               <list xml:id="evreux-summa-list-q6k4H385">
+                  <item xml:id="evreux-summa-item-04l3e0K6" ana="#V">
+                     <ref n="23r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0049"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-qQ450Ydw" ana="#T">
+                     <ref n="54va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508513&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-5br06yVY" sameAs="evreux_0019" type="distinctio">
+            <head>Tempus<note>Dominica Ia XLa; the distinctio itself begins on f. 58ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-31yE0Q70" type="distinctio">
+               <head>Ad nostram instructionem dicere possumus quod sicut quatuor genera hominum
+                  solent corporaliter tempus acceptabile obseruare, quatuor genera hominum debent
+                  spiritualiter tempus obseruare:</head>
+               <item xml:id="evreux-summa-item-4WD25N6V">primo infirmus solet obseruare tempus melius sanatiuum;</item>
+               <item xml:id="evreux-summa-item-5T050e43">secundo solet offendens obseruare tempus pacificus;</item>
+               <item xml:id="evreux-summa-item-4bKC5c0x">tertio solet operarius obseruare tempus lucratiuum;</item>
+               <item xml:id="evreux-summa-item-861ry08C">quarto agricola solet obseruare tempus fructificatiuum.</item>
+            </list>
+            <div xml:id="evreux-summa-div-QFF1e1C1" type="witnesses">
+               <list xml:id="evreux-summa-list-3020we20">
+                  <item xml:id="evreux-summa-item-48HTS568" ana="#V">
+                     <ref n="24v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0052"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-8o4bn745" ana="#T">
+                     <ref n="57va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508516&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-M3q61184" sameAs="evreux_0020" type="distinctio">
+            <head>Uocare<note>Dominica IIa XLa; the distinctio itself begins on f. 61ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-Y4r31XpM" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod ad hoc quod aliquis homo in mundo
+                  isto uocetur ad societatem alicuius <unclear>magni IIII</unclear> requiruntur ita
+                  nobis ad hoc quod ad societatem Dei uocemur:</head>
+               <item xml:id="evreux-summa-item-4444c483">primum est decentia conuersationis;</item>
+               <item xml:id="evreux-summa-item-0w1X444y">secundum est nobilitas operationis;</item>
+               <item xml:id="evreux-summa-item-eY68v42S">tertium est correctionis promissio;</item>
+               <item xml:id="evreux-summa-item-4Yje0273">quartum est connexio dilectionis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-1YoFVl16" type="witnesses">
+               <list xml:id="evreux-summa-list-D8m55YTO">
+                  <item xml:id="evreux-summa-item-55T7410S" ana="#V">
+                     <ref n="26r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0055"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-0rp46676" ana="#T">
+                     <ref n="60va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508519&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-6463d028" sameAs="evreux_0021" type="distinctio">
+            <head>Filii<note>Dominica IIIa XLa; the distinctio itself begins on f. 63vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-1I2sEc4S" type="distinctio">
+               <head>Nota quod sicut uidemus in mundo quod quatuor conditiones sunt in filiis
+                  carnalibus erga parentes que debent esse in nobis erga dominum ad hoc quod simus
+                  filii Dei:</head>
+               <item xml:id="evreux-summa-item-Y5g1aJ4B">primo filii debent patribus assimilari expressius;</item>
+               <item xml:id="evreux-summa-item-80575i18">secundo debent filii parentes diligere affectuosius;</item>
+               <item xml:id="evreux-summa-item-104AVrQq">tertio debent filii parentum correctiones sustinere libentius;</item>
+               <item xml:id="evreux-summa-item-38M5x47h">quarto filii ad patres <unclear>uel necessarie</unclear> recurrunt
+                  securi.</item>
+            </list>
+            <div xml:id="evreux-summa-div-1376V4rR" type="witnesses">
+               <list xml:id="evreux-summa-list-k55r4eK0">
+                  <item xml:id="evreux-summa-item-XR5q50oS" ana="#V">
+                     <ref n="27r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0057"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-0V65bu7j" ana="#T">
+                     <ref n="63rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508521&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-w03qm165" sameAs="evreux_0022" type="distinctio">
+            <head>Liberare<note>Dominica IIIIa XLa; the distinctio itself begins on f.
+               66va</note></head>
+            <list xml:id="evreux-summa-list-3W4ML306" type="distinctio">
+               <head>Sicut uidemus quod homo corporaliter a morte corporali quatuor modis liberatur,
+                  ita spiritualiter possumus liberari a morte eterna:</head>
+               <item xml:id="evreux-summa-item-MQs672k7">primo solet hliberari a morte corporaliter si innocens et
+                     <unclear>immunis</unclear> inueniatur;</item>
+               <item xml:id="evreux-summa-item-8m2AfX70">secundo solet homo liberari a morte si suo aduersario uiriliter
+                  resistatur;</item>
+               <item xml:id="evreux-summa-item-M7j2amI0">tertio solet homo liberari a morte corporaliter si sufficienter suum forefactum
+                  emendauit;</item>
+               <item xml:id="evreux-summa-item-6727uw64">quarto solet homo liberari a morte si magis adiutoribus fulciat.</item>
+            </list>
+            <div xml:id="evreux-summa-div-yEn748s4" type="witnesses">
+               <list xml:id="evreux-summa-list-8C0638ni">
+                  <item xml:id="evreux-summa-item-b8FQ2371" ana="#V">
+                     <ref n="28r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0059"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-5823D82I" ana="#T">
+                     <ref n="65vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508524&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-eM8CfA67" sameAs="evreux_0023" type="distinctio">
+            <head>Mundare<note>Dominica in Passione; the distinctio itself begins on f. 69rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-61CX8xeb" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod sicut uidemus quod aliquod uas
+                  corporaliter propter quatuor slet mundari, ita propter quatuor uas nostre
+                  conscientie debet emundari:</head>
+               <item xml:id="evreux-summa-item-c0A1OElr">primo solet uas aliquod mundari corporaliter ut quod ponitur recipiatur
+                  preciosius;</item>
+               <item xml:id="evreux-summa-item-G5myl3Kw">secundo solet aliquod uas mundari unde eo ministretur gratiosius;</item>
+               <item xml:id="evreux-summa-item-bKGvkD6q">tertio solet aliquod uas mundari ut a corruptione conseruetur curiosius;</item>
+               <item xml:id="evreux-summa-item-5Ny2cX06">quarto solet aliqua res mundari ut presentetur preciosius.</item>
+            </list>
+            <div xml:id="evreux-summa-div-2Yq310l3" type="witnesses">
+               <list xml:id="evreux-summa-list-Hh0Yy2m7">
+                  <item xml:id="evreux-summa-item-00TWsD6w" ana="#V">
+                     <ref n="29v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0062"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-6I5ytkb7" ana="#T">
+                     <ref n="68va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508527&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-08Ssw8my" sameAs="evreux_0024" type="distinctio">
+            <head>Sentire<note>Dominica in ramis palmarum; the distinctio itself begins on f.
+                  72va</note>
+            </head>
+            <list xml:id="evreux-summa-list-X7Opcq0m" type="distinctio">
+               <head>Ad nostram instructionem dicere possumus quod quatuor genera rerum sentiuntur
+                  naturaliter, ita quatuor debemus sentire spiritualiter:</head>
+               <item xml:id="evreux-summa-item-8eh6530g">primo enim sentitur dolor ab infirmitate;</item>
+               <item xml:id="evreux-summa-item-0Gy2no8H">secundo sentitur calor a <unclear>calefaciente</unclear>;</item>
+               <item xml:id="evreux-summa-item-180nQghr">tertio sentitur cibi sapor a comedente;</item>
+               <item xml:id="evreux-summa-item-b353Trg7">quarto sentitur odor bestie a cane insequente.</item>
+            </list>
+            <div xml:id="evreux-summa-div-S061331i" type="witnesses">
+               <list xml:id="evreux-summa-list-820G10Ej">
+                  <item xml:id="evreux-summa-item-q0q5P181" ana="#V">
+                     <ref n="31r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0065"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-821o2371" ana="#T">
+                     <ref n="71vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508530&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-3j1nWU6f" sameAs="evreux_0025" type="distinctio">
+            <head>Lauare<note>In cena Domini; the distinctio itself begins on f. 75ra</note></head>
+            <list xml:id="evreux-summa-list-7v4J6MOc" type="distinctio">
+               <head>Sicut uidemus ad sensum quod homo quatuor de causis solet se lauare
+                  corporaliter, ita debet se lauare spiritualiter:</head>
+               <item xml:id="evreux-summa-item-llIOql2s">primo solet se homo lauare ratione mundioris comestionis;</item>
+               <item xml:id="evreux-summa-item-KbM3xpmi">secundo solet se homo lauare ratione recuperande sanitatis</item>
+               <item xml:id="evreux-summa-item-wUd8uNRn">tertio solet aliquis se lauare ratione abhominatio is tollende;</item>
+               <item xml:id="evreux-summa-item-5dFM0100">quarto solet aliquis homo se lauare ratione <unclear>detentoris</unclear>
+                  festinationis</item>
+            </list>
+            <div xml:id="evreux-summa-div-82k13rg6" type="witnesses">
+               <list xml:id="evreux-summa-list-3Yy05mE5">
+                  <item xml:id="evreux-summa-item-60584lRB" ana="#V">
+                     <ref n="32r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0067"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-31kS8b73" ana="#T">
+                     <ref n="74va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508533&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-48X2iNiW" sameAs="evreux_0026" type="distinctio">
+            <head>Passus Christus<note>In die parasceves; the distinctio itself begins on f.
+                  77va</note>
+            </head>
+            <list xml:id="evreux-summa-list-6C5Bft4k" type="distinctio">
+               <head>Notandum quod sicut nos uidemus quod mors alicuius solet recitari corporaliter
+                  quatuor de causis, ita nobis propter quatuor Passio Christi recolitur ac
+                  recitatur: </head>
+               <item xml:id="evreux-summa-item-o1223576">primo solet mors alicuius <app>
+                     <rdg wit="#T">recitari</rdg>
+                     <rdg wit="#V"/>
+                  </app> ut erga mortuum haberet affectio et dilectio ostendatur;</item>
+               <item xml:id="evreux-summa-item-jijgF468">secundo solet mors alicuius recitari ut alius animetur;</item>
+               <item xml:id="evreux-summa-item-DS23830A">tertio solet mors alicuius recitari ut a morte consimili caueat;</item>
+               <item xml:id="evreux-summa-item-l82Py760">quarto solet mors alicuius recitari ut uitis pro uite rependat.</item>
+            </list>
+            <div xml:id="evreux-summa-div-q8txnpq2" type="witnesses">
+               <list xml:id="evreux-summa-list-X6100Wo1">
+                  <item xml:id="evreux-summa-item-6y431376" ana="#V">
+                     <ref n="33r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0069"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-cK2w4g4L" ana="#T">
+                     <ref n="77ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508535&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-s117Lh82" sameAs="evreux_0027" type="distinctio">
+            <head>Passio Christi<note>Passio Domini</note></head>
+            <argument>
+               <p xml:id="evreux-summa-p-DU2kR22e"><note>[Long sermon, does not seem to be structured as a distinctio]</note></p>
+            </argument>
+            <div xml:id="evreux-summa-div-3361r8C0" type="witnesses">
+               <list xml:id="evreux-summa-list-8W0MmWC1">
+                  <item xml:id="evreux-summa-item-8000PP5d" ana="#V">
+                     <ref n="33v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0070"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-Mb1866YT" ana="#T">
+                     <ref n="79va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508538&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-25478b78" sameAs="evreux_0028" type="distinctio">
+            <head>Sanctificare<note>In uigilia Pasche; the distinctio itself begins on f.
+                  87va</note>
+            </head>
+            <list xml:id="evreux-summa-list-60IN7R1W" type="distinctio">
+               <head>Sicut uidemus quod aliqua res solent teneri munde et sancte propter quatuor,
+                  ita debemus sanctificari et mundari spiritualiter:</head>
+               <item xml:id="evreux-summa-item-K4c0s2CX">primo solet aliqua res sanctificari et mundari corporaliter ut sit aptior ad
+                  receptionem;</item>
+               <item xml:id="evreux-summa-item-6gcpxPo0">secundo solet aliqua res sanctificari uel mundari propter specialiores
+                  obligationes;</item>
+               <item xml:id="evreux-summa-item-VM20J7dq">tertio solet aliqua res sanctificari siue mundari propter gratiosiores
+                  ministrationes;</item>
+               <item xml:id="evreux-summa-item-V7F22kF3">quarto solet res aliqua sanctificari uel mundari propter dilectionis fortiorem
+                  impressionem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-DG6mM741" type="witnesses">
+               <list xml:id="evreux-summa-list-5CUT0Rh1">
+                  <item xml:id="evreux-summa-item-8Dv538IV" ana="#V">
+                     <ref n="36v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0076"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-sQ3kybsg" ana="#T">
+                     <ref n="87ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508545&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-8uT8k5qK" sameAs="evreux_0029" type="distinctio">
+            <head>Uas<note>In die Pasche; the distinctio itself begins on f. 89vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-iIv3X485" type="distinctio">
+               <head>Karissimi, ad hoc quod in isto uase eukaristiam siue Dei gratiam recipiamus
+                  quatuor requiruntur que requiruntur in uase corporali ad hoc quod preciosius
+                  liquor ibi ponatur:</head>
+               <item xml:id="evreux-summa-item-1A61802J">primo requiritur in uase corporali quod sit sollicitius emundatur;</item>
+               <item xml:id="evreux-summa-item-1j62l0bi">secundo requiritur in uase corporali quod sit integre conseruatum;</item>
+               <item xml:id="evreux-summa-item-NS1x3768">tertio requiritur in uase corporali quod os sit superius eleuatum; </item>
+               <item xml:id="evreux-summa-item-4LY1HCHN">quarto requiritur in uase corporali quod sit firmiter appodiatum.</item>
+            </list>
+            <div xml:id="evreux-summa-div-D0Ll5140" type="witnesses">
+               <list xml:id="evreux-summa-list-A0L1Ce6h">
+                  <item xml:id="evreux-summa-item-Cjtc7oo3" ana="#V">
+                     <ref n="37v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0078"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-20kpcVBd" ana="#T">
+                     <ref n="89ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508547&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-162x52H0" sameAs="evreux_0030" type="distinctio">
+            <head>Custodire<note>In die Pasche post prandium; the distinctio itself begins on f.
+                  92ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-34QM5Ic0" type="distinctio">
+               <head>Notandum quod quatuor modis solet aliqua res custodiri corporaliter, ita si
+                  uolumus esse boni custodes Christi oportet illa facere spiritualiter:</head>
+               <item xml:id="evreux-summa-item-mB8E7t2E">primum quo solet aliqua res custodiri est clausionis ydoneitas;</item>
+               <item xml:id="evreux-summa-item-56EN8046">secundum quod requiritur ad aliquam rem custodiendam est defensionis
+                  uirilitas;</item>
+               <item xml:id="evreux-summa-item-nU04H504">tertium quo potest aliqua res custodiri corporaliter est dominationis
+                  fidelitas;</item>
+               <item xml:id="evreux-summa-item-Q4t2t04I">quartum quod requiritur ad aliquam rem custodiendam corporaliter est
+                  conseruationis assiduitas.</item>
+            </list>
+            <div xml:id="evreux-summa-div-8034178b" type="witnesses">
+               <list xml:id="evreux-summa-list-3Rwt7u0W">
+                  <item xml:id="evreux-summa-item-6kwBql08" ana="#V">
+                     <ref n="38v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0080"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-G22t7M2u" ana="#T">
+                     <ref n="91rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508549&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-46y871S5" sameAs="evreux_0031" type="distinctio">
+            <head>Uincere, uictoria<note>Dominica in oct. Pasche; the distinctio itself begins on f.
+                  94va</note>
+            </head>
+            <list xml:id="evreux-summa-list-osdAtcG2" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod sicut uidemus quod quatuor
+                  corporaliter iuuant ad uictoriam optinendam, sic spiritualiter intellectu quatuor
+                  iuuant ad uictoriam spiritualem de aduersariis spiritualibus optinendam:</head>
+               <item xml:id="evreux-summa-item-C8U70hKB">primum est fertilitas <app>
+                     <rdg wit="#T">munitionis</rdg>
+                     <rdg wit="#V">coniunctionis</rdg>
+                  </app> si sit munitus fertiliter;</item>
+               <item xml:id="evreux-summa-item-0gn1378X">secundum est uirilitas impugnationis si inuadat uiriliter;</item>
+               <item xml:id="evreux-summa-item-0a775g2H">tertium est securitas exterioris sustentationis;</item>
+               <item xml:id="evreux-summa-item-034F1Rl5">quartum est continuitas defensionis quando continuat finaliter.</item>
+            </list>
+            <div xml:id="evreux-summa-div-R6mx87YD" type="witnesses">
+               <list xml:id="evreux-summa-list-C20exoW5">
+                  <item xml:id="evreux-summa-item-25612Gq3" ana="#V">
+                     <ref n="39v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0082"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-XPkoO857" ana="#T">
+                     <ref n="93vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508552&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-0wD85H01" sameAs="evreux_0032" type="distinctio">
+            <head>Sequi<note>Dominica IIa post Pascha; the distinctio itself begins on f.
+                  97vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-T72av7iG" type="distinctio">
+               <head>Ad nostram edificationem dicere possumus quod sicut uidemus ad sensum quod homo
+                  quadruplici de causa solet aliquando alium sequi corporaliter, ita debemus sequi
+                  Christus spiritualiter:</head>
+               <item xml:id="evreux-summa-item-S824215j">primo solet homo sequi libenter fidelem ductorem qui ducat eum sine
+                  deuio;</item>
+               <item xml:id="evreux-summa-item-L430644e">secundo sequitur seruus sominum emptorem cui obligatur in obsequio;</item>
+               <item xml:id="evreux-summa-item-165nhBF1">tertio sequitur infirmus libenter potentem curatorem a contagio;</item>
+               <item xml:id="evreux-summa-item-E70dODVS">quarto sequitur pauper uocatus aduersis largiorem remunerationem in
+                  beneficio.</item>
+            </list>
+            <div xml:id="evreux-summa-div-x2iTpD73" type="witnesses">
+               <list xml:id="evreux-summa-list-QTwjP685">
+                  <item xml:id="evreux-summa-item-Y5413c7b" ana="#V">
+                     <ref n="41v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0086"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-0kF4C5Jm" ana="#T">
+                     <ref n="97ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508555&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-Aj0tN0t3" sameAs="evreux_0033" type="distinctio">
+            <head>Peregrinus<note>Dominica IIIa post Pascha; the distinctio itself begins on f.
+                  100vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-i7rd1xJ2" type="distinctio">
+               <head>In quolibet peregrino quatuor conditiones reperimus, ita in quolibet nostrum
+                  iste quatuor conditiones debent spiritualiter inueniri:</head>
+               <item xml:id="evreux-summa-item-400br3W5">prima conditio peregrini es erum suarum et familie dispensatio;</item>
+               <item xml:id="evreux-summa-item-eM3T3Y06">secundum quod conuenit peregrino est recte uie conseruatio;</item>
+               <item xml:id="evreux-summa-item-s70W108P">tertia conditio peregrini est in itinere breuis pausatio;</item>
+               <item xml:id="evreux-summa-item-nBm512g7">quarta conditio peregrini est patrie recordatio et ad ipsam affectio.</item>
+            </list>
+            <div xml:id="evreux-summa-div-g200V08M" type="witnesses">
+               <list xml:id="evreux-summa-list-b26q20i8">
+                  <item xml:id="evreux-summa-item-256880NJ" ana="#V">
+                     <ref n="43r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0089"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-dUx1xX80" ana="#T">
+                     <ref n="100ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508558&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-6YLSQM21" sameAs="evreux_0034" type="distinctio">
+            <head>Abicere<note>Dominica IIIIa post Pascha; the distinctio itself begins on f.
+                  103vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-t8O0iGt3" type="distinctio">
+               <head>Ad edificationem possumus dicere quod sicut uidemus quod aliqua res
+                  corporaliter solet abici propter quatuor, ita loquendo spiritualiter peccatum
+                  debet abici:</head>
+               <item xml:id="evreux-summa-item-WiH55b0g">primo solet aliquod abici quia dampnificatiuum;</item>
+               <item xml:id="evreux-summa-item-6616r164">secundo solet aliquod abici quia dehonoratiuum;</item>
+               <item xml:id="evreux-summa-item-2Q53t6Bk">tertio solet aliquod abici quia impeditiuum;</item>
+               <item xml:id="evreux-summa-item-06CtL47I">quarto solet aliquod abici quia deturpatiuum.</item>
+            </list>
+            <div xml:id="evreux-summa-div-b3M8612J" type="witnesses">
+               <list xml:id="evreux-summa-list-2lL4Vp0w">
+                  <item xml:id="evreux-summa-item-jL54815M" ana="#V">
+                     <ref n="44v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0092"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-81Rm0oNd" ana="#T">
+                     <ref n="103ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508561&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-40RjM60k" sameAs="evreux_0035" type="distinctio">
+            <head>Opus<note>Dominica Va post Pascha; the distinctio itself begins on f. 106ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-Q48R243T" type="distinctio">
+               <head>Notandum quod sicut uidemus in mundo quod quatuor solent mouere hominem ad
+                  operandum corporaliter, ita ad bene operandum spiritualiter quatuor debent nos
+                  mouere:</head>
+               <item xml:id="evreux-summa-item-6Ms800m0">primo mouetur homo ad operandum corporaliter ratione conditionis indice;</item>
+               <item xml:id="evreux-summa-item-70rPa210">secundo mouetur homo ad bene operandumratione oportunitatis hore habite;</item>
+               <item xml:id="evreux-summa-item-id06G4H6">tertio mouetur homo ad operam ratione recuperande rei perdite;</item>
+               <item xml:id="evreux-summa-item-KJud16px">quarto mouetur homo ad operandum ratione retributionis indice.</item>
+            </list>
+            <div xml:id="evreux-summa-div-603j0c0w" type="witnesses">
+               <list xml:id="evreux-summa-list-5RE5m6bG">
+                  <item xml:id="evreux-summa-item-x2QU33V8" ana="#V">
+                     <ref n="45v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0094"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-1m6k36Q5" ana="#T">
+                     <ref n="105va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508564&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-2n7Xvo15" sameAs="evreux_0036" type="distinctio">
+            <head>Ascendere<note>De ascensione Domini; the distinctio itself begins on f.
+                  108rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-PW1WG8O4" type="distinctio">
+               <head>Noandum quod sicut ad ascendendum corporaliter hominem iuuant quatuor et
+                  faciunt ascendere, ita ad ascendendum spiritualiter nos iuuant quatuor et
+                  ascendere faciunt:</head>
+               <item xml:id="evreux-summa-item-48pqk687">primo solet aliquis ascendere ratione naturalis inclinationis;</item>
+               <item xml:id="evreux-summa-item-711C6VB3">secundo solet aliquis ascendere ratione fortioris inuasionis;</item>
+               <item xml:id="evreux-summa-item-3X4R10yA">tertio solet aliquis ascendere ratione bone mutationis;</item>
+               <item xml:id="evreux-summa-item-242207KN">quarto solet res aliqua ascendere ratione supernalis attractionis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-Q1Hj1Y6T" type="witnesses">
+               <list xml:id="evreux-summa-list-6n3438tn">
+                  <item xml:id="evreux-summa-item-42a16532" ana="#V">
+                     <ref n="46v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0096"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-YR8TG5DK" ana="#T">
+                     <ref n="107va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508566&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-38I34410" sameAs="evreux_0037" type="distinctio">
+            <head>Prudentia<note>Dominica Ia post ascensione Domini; the distinctio itself begins on
+                  f. 111ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-joV8Xg16" type="distinctio">
+               <head>Notandum quod sicut uidemus corporaliter quod quatuor genera hominum indigent
+                  prudentia, ita quatuor genera hominum spiritualiter indigent prudentia:</head>
+               <item xml:id="evreux-summa-item-ER5wsL02">primo indiget prudentia seruus qui debet magno domino ministrare;</item>
+               <item xml:id="evreux-summa-item-38681V11">secundo indiget prudentia mercator qui uult diuitias augmentare;</item>
+               <item xml:id="evreux-summa-item-x7i5025k">tertio indiget prudentia infirmus qui uult recuperare sanitatem;</item>
+               <item xml:id="evreux-summa-item-Qend0587">quarto indiget prudentia homo debilis qui uult inimicos euitare.</item>
+            </list>
+            <div xml:id="evreux-summa-div-0Ko3464P" type="witnesses">
+               <list xml:id="evreux-summa-list-0m3VX57A">
+                  <item xml:id="evreux-summa-item-6V3t638P" ana="#V">
+                     <ref n="48r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0099"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-438sHh0r" ana="#T">
+                     <ref n="110rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508568&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-23GNS15d" sameAs="evreux_0038" type="distinctio">
+            <head>Spiritus<note>De sancto Spiritu in die Pent.; the distinctio itself begins on f.
+                  113vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-Q58A8c7J" type="distinctio">
+               <head>Sicut uidemus quod spiritus humanus in corpore humano quatuor facit
+                  corporaliter, ita spiritus sanctus in anima ista quatuor facit loquendo
+                  spiritualiter:</head>
+               <item xml:id="evreux-summa-item-01fC3J67">primo enim in corpore humano spritus humanus est conseruatiuus decoris;</item>
+               <item xml:id="evreux-summa-item-R28hn452">secundo in corpore humano spritus humanus est nutritius caloris;</item>
+               <item xml:id="evreux-summa-item-ye5q163C">tertio in corpore humano spritus humanus est corroboratiuus uigoris;</item>
+               <item xml:id="evreux-summa-item-25f88643">quarto in corpore humano spritus humanus est collatiuus ualoris.</item>
+            </list>
+            <div xml:id="evreux-summa-div-r5S2064d" type="witnesses">
+               <list xml:id="evreux-summa-list-853O01i2">
+                  <item xml:id="evreux-summa-item-1i703l2S" ana="#V">
+                     <ref n="49v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0102"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-h3o24s3r" ana="#T">
+                     <ref n="113ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508571&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-6yN0k31C" sameAs="evreux_0039" type="distinctio">
+            <head>Trinitas<note>De sancta Trinitate; the distinctio itself begins on f. 116rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-6h6D74s5" type="distinctio">
+               <head>Ad nostram edificationem autem dicere possumus quod sicut legimus in Scripturis
+                  multiplices trinitates inueniuntur:</head>
+               <item xml:id="evreux-summa-item-16YXJ806">prima trinitas est trinitas formatiua;</item>
+               <item xml:id="evreux-summa-item-5Us2N0J4">secunda trinitas est trinitas deformatiua;</item>
+               <item xml:id="evreux-summa-item-5263V774">tertia trinitas est trinitas reformatiua;</item>
+               <item xml:id="evreux-summa-item-OK8402c8">quarta trinitas est trinitas in bono confirmatiua.</item>
+            </list>
+            <div xml:id="evreux-summa-div-0O0Y500Q" type="witnesses">
+               <list xml:id="evreux-summa-list-yWGA51Bf">
+                  <item xml:id="evreux-summa-item-3Smr0252" ana="#V">
+                     <ref n="51r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0105"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-aP36J5RL" ana="#T">
+                     <ref n="115va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508574&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-551803F4" sameAs="evreux_0040" type="distinctio">
+            <head>Diligere<note>Dominica Ia post Trinitatem; the distinctio itself begins on f.
+                  118va</note>
+            </head>
+            <list xml:id="evreux-summa-list-G2j0l616" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod ad hoc quod aliqua persona
+                  sufficienter ab alia diligatur quatuor necessario requiruntur que debent reperi in
+                  quolibet ad hoc quod Deus ab ipso sufficienter diligatur:</head>
+               <item xml:id="evreux-summa-item-g4QCA1Uk">primo enim requiritur quod pre aliis affectuosius diligatur;</item>
+               <item xml:id="evreux-summa-item-34U0XvQ5">secundo requiritur quod eius offensa caueatur sollicitius;</item>
+               <item xml:id="evreux-summa-item-aVf1N618">tertio requiritur quod ei obediatur diligentius;</item>
+               <item xml:id="evreux-summa-item-130Jh2I4">quarto requiritur quod eius dilectio teneatur perseuerantius.</item>
+            </list>
+            <div xml:id="evreux-summa-div-13366PB0" type="witnesses">
+               <list xml:id="evreux-summa-list-IlXCXw17">
+                  <item xml:id="evreux-summa-item-i4V340vy" ana="#V">
+                     <ref n="52r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0107"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-5841d6m8" ana="#T">
+                     <ref n="117vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508576&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-40Dyv224" sameAs="evreux_0041" type="distinctio">
+            <head>Mors et uita<note>Dominica IIa post Trinitatem; the distinctio itself begins on f.
+                  121rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-08no831t" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod aliquis corporaliter solet seruare
+                  uitam suam corporalem quatuor modis, ita est spiritualiter suo modo:</head>
+               <item xml:id="evreux-summa-item-f2203GB7">primum est bonitas uite et conseruationis;</item>
+               <item xml:id="evreux-summa-item-08IW68I8">secundum quod solet homo euadere mortem et seruare uitam est uirilitas
+                  defensionis;</item>
+               <item xml:id="evreux-summa-item-7881jv23">tertium quo solet homo euadere mortem et seruare uitam est uelocitas
+                  emendationis;</item>
+               <item xml:id="evreux-summa-item-14N623VD">quartum quo solet homo euadere mortem et seruare uitam est multiplicitas
+                  intercessionis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-tj775mW7" type="witnesses">
+               <list xml:id="evreux-summa-list-0QI54s02">
+                  <item xml:id="evreux-summa-item-V775c0d3" ana="#V">
+                     <ref n="53v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0110"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-3Sg1P00S" ana="#T">
+                     <ref n="120vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508579&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-iH05533N" sameAs="evreux_0042" type="distinctio">
+            <head>Mors<note>Dominica IIa post Trinitatem (de eodem)</note>
+            </head>
+            <list xml:id="evreux-summa-list-17U3bL20" type="distinctio">
+               <head>Notandum quid sicut uidemus in mundo quod quatuor modis solet homo mori
+                  corporaliter, ita sunt quatuor qui conueniunt diuersis hominibus
+                  spiritualiter:</head>
+               <item xml:id="evreux-summa-item-1R074836">primo solet homo mori corporaliter propter debilitatem naturalis
+                  potentie;</item>
+               <item xml:id="evreux-summa-item-818w18q3">secundo solet homo mori corporaliter propter sumptionem comestionis noxie uel
+                  inuasionem malitie;</item>
+               <item xml:id="evreux-summa-item-7872q173">tertio solet homo mori corporaliter ratione afflictionis uoluntarie;</item>
+               <item xml:id="evreux-summa-item-3tPj35i3">quarto solet homo mori corporaliter ratione punitionis iudiciarie.</item>
+            </list>
+            <div xml:id="evreux-summa-div-371C1uak" type="witnesses">
+               <list xml:id="evreux-summa-list-v6sKW2qx">
+                  <item xml:id="evreux-summa-item-0Y8nt2w5" ana="#V">
+                     <ref n="55r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0113"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-27fY2F68" ana="#T">
+                     <ref n="123ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508581&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-ne7J08s0" sameAs="evreux_0043" type="distinctio">
+            <head>Uigilare<note>Dominica IIIa post Trinitatem; the distinctio itself begins on f.
+                  125vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-4n1031X5" type="distinctio">
+               <head>Notandum quod sicut uidetur corporaliter quod solet aliquis uigilare quatuor de
+                  causis, sic debemus uigilare spiritualiter:</head>
+               <item xml:id="evreux-summa-item-eL0vqSGo">primo solet homo uigilare corporaliter propter recuperationem sanitatis;</item>
+               <item xml:id="evreux-summa-item-0Pl112Cx">secundo solet homo uigilare corporaliter propter suspitionem
+                  proditionis;</item>
+               <item xml:id="evreux-summa-item-528640V6">tertio solet aliquis uigilare corporaliter propter consummationem
+                  operationis;</item>
+               <item xml:id="evreux-summa-item-6Lj5j173">quarto solet homo uigilare corporaliter propter computationem
+                  commissionis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-71556451" type="witnesses">
+               <list xml:id="evreux-summa-list-j7407r01">
+                  <item xml:id="evreux-summa-item-X354140L" ana="#V">
+                     <ref n="56r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0115"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-6Om2SDr4" ana="#T">
+                     <ref n="125ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508583&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-8m0Gln83" sameAs="evreux_0044" type="distinctio">
+            <head>Gloria<note>Dominica IIIIa post Trinitatem; the distinctio itself begins on f.
+                  128va</note>
+            </head>
+            <list xml:id="evreux-summa-list-nw050y17" type="distinctio">
+               <head>Notandum quod sicut uidemus in mundo quod quatuor modis solet quis peruenire ad
+                  gloriam temporalem, ita loquendo spiritualiter quatuor modis potest peruenire ad
+                  gloriam sempiternam:</head>
+               <item xml:id="evreux-summa-item-nH07R2Ss">primo solet aliquis peruenire ad gloriam temporalem propter pulcritudinem
+                  coloratam;</item>
+               <item xml:id="evreux-summa-item-63662714">secundo solet aliquis peruenire ad gloriam propter fortitudinem
+                  approbatam;</item>
+               <item xml:id="evreux-summa-item-u21b06a8">tertio solet aliquis uenire ad gloriam propter ingratitudinem emendatam;</item>
+               <item xml:id="evreux-summa-item-725x48lc">quarto solet aliquis ad gloriam pertingere corporaliter propter operum
+                  multitudinem nominatam.</item>
+            </list>
+            <div xml:id="evreux-summa-div-o5612KSW" type="witnesses">
+               <list xml:id="evreux-summa-list-614Hs7Kd">
+                  <item xml:id="evreux-summa-item-3634380u" ana="#V">
+                     <ref n="57v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0118"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-HN611G0W" ana="#T">
+                     <ref n="127vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508586&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-3O3WS4d3" sameAs="evreux_0045" type="distinctio">
+            <head>Benedictio<note>Dominica Va post Trinitatem; the distinctio itself begins on f.
+                  130vb</note></head>
+            <list xml:id="evreux-summa-list-AcyaGv57" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum in mundo quod quatuor genera hominum
+                  solent benedici corporaliter, sic isti significant quauor genera hominum qui
+                  benedicuntur in mundo per gratiam et post per gloriam:</head>
+               <item xml:id="evreux-summa-item-3WMaaF81">primo solent benedici moniales quando debent Deo consecrari;</item>
+               <item xml:id="evreux-summa-item-f66uk170">secundo solent benedici peregrinantes quando uolunt peregrinari;</item>
+               <item xml:id="evreux-summa-item-u6Sj61r4">tertio solent benedici coniuges quando debent desponsari;</item>
+               <item xml:id="evreux-summa-item-6g0Lc5m7">quarto solent benedici clerici quando debent ordinari.</item>
+            </list>
+            <div xml:id="evreux-summa-div-c0q84n1G" type="witnesses">
+               <list xml:id="evreux-summa-list-URD0Fm1S">
+                  <item xml:id="evreux-summa-item-104qxJ82" ana="#V">
+                     <ref n="58v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0120"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-WxX3427D" ana="#T">
+                     <ref n="130ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508588&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-2k51EC6L" sameAs="evreux_0046" type="distinctio">
+            <head>Ambulare<note>Dominica VIa post Trinitatem; the distinctio itself begins on f.
+                  133rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-3W73Kgm0" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod quatuor sunt que mouent hominem ad
+                  ambulandum corporaliter, ita quatuor spiritualiter debent hominem mouere ad
+                  ambulandum in bonis operibus spiritualiter:</head>
+               <item xml:id="evreux-summa-item-ixN4vc73">primum est uocatio honorabilis;</item>
+               <item xml:id="evreux-summa-item-4R5J820r">secundum est merces appetibilis;</item>
+               <item xml:id="evreux-summa-item-PEi21338">tertium est dampnificatio ymaginalis;</item>
+               <item xml:id="evreux-summa-item-B3N5u4O3">quartum est uia acceptabilis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-B1DU525W" type="witnesses">
+               <list xml:id="evreux-summa-list-q1Xy6v20">
+                  <item xml:id="evreux-summa-item-7X4r8Y28" ana="#V">
+                     <ref n="60r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0123"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-o15307uj" ana="#T">
+                     <ref n="132vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508591&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-0idtufN0" sameAs="evreux_0047" type="distinctio">
+            <head>Seruus<note>Dominica VIIa post Trinitatem; the distinctio itself begins on f.
+                  135va</note>
+            </head>
+            <list xml:id="evreux-summa-list-snO6j3I7" type="distinctio">
+               <head>Notandum quod sicut uidemus in mundo corporaliter quod aliquis diues quatuor
+                  conditiones requirit in seruo qui est de pane et de uino suo et ad robas suas, ita
+                  Deus spiritualiter in seruo suo has requirit:</head>
+               <item xml:id="evreux-summa-item-3YNV340a">primo requirit aliquis dominus in seruo suo puritatem siue honestatem
+                  conuersationis;</item>
+               <item xml:id="evreux-summa-item-N208x880">secundo requirit dominus in seruo fidelitatem dispensationis;</item>
+               <item xml:id="evreux-summa-item-J012nt4t">tertio requirit dominus in seruo suo strenuitatem operis;</item>
+               <item xml:id="evreux-summa-item-8x5Ftp14">quarto requirit dominus in seruo integritatem continuationis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-14p64i7i" type="witnesses">
+               <list xml:id="evreux-summa-list-2iG5JTIx">
+                  <item xml:id="evreux-summa-item-vV3KimH0" ana="#V">
+                     <ref n="60r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0123"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-47v2s747" ana="#T">
+                     <ref n="135ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508593&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-22Na8S40" sameAs="evreux_0048" type="distinctio">
+            <head>Hereditas<note>Dominica VIIIa post Trinitatem; the distinctio itself begins on f.
+                  137vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-DUPYCkO3" type="distinctio">
+               <head>Notandum quod sicut uidemus in mundo quod aliquis homo solet pertingere ad
+                  aliquam hereditatem corporalem quatuor modis, ita possumus pertingere ad
+                  hereditatem eternam spiritualiter suo modo:</head>
+               <item xml:id="evreux-summa-item-s66fDGm4">primo solet aliquis pertingere ad aliquam hereditatem corporalem ratione
+                  consanguinitatis;</item>
+               <item xml:id="evreux-summa-item-312ef1O0">secundo solet homo pertingere ad aliquam hereditatem corporalem ratione sue
+                  probitatis;</item>
+               <item xml:id="evreux-summa-item-kgt50O52">tertio solet aliquis pertingere ad aliquam hereditatem corporalem ratione
+                  prouide sagacitatis;</item>
+               <item xml:id="evreux-summa-item-G1eAxLmE">quarto solet homo pertingere ad aliquam hereditatem corporalem ratione</item>
+            </list>
+            <div xml:id="evreux-summa-div-22142Pa6" type="witnesses">
+               <list xml:id="evreux-summa-list-g3EHI51w">
+                  <item xml:id="evreux-summa-item-5SOAmm0Q" ana="#V">
+                     <ref n="62r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0127"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-h5E0q15j" ana="#T">
+                     <ref n="137rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508595&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-0273wMiw" sameAs="evreux_0049" type="distinctio">
+            <head>Finis<note>Dominica IXa post Trinitatem; the distinctio itself begins on f.
+                  140rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-GREN57fj" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod finis alicuius rei solet alicui
+                  insinuari propter quatuor, ita Apostolus inem mundi uel nostrum esse nobis
+                  propinquum insinuat:</head>
+               <item xml:id="evreux-summa-item-0cy7V21S">primo solet aliquis finis insinuari ratione cautioris obseruationis;</item>
+               <item xml:id="evreux-summa-item-t41S20ou">secundo solet aliquis finis insinuari ratione citioris correctionis;</item>
+               <item xml:id="evreux-summa-item-t6wsij47">tertio solet aliquis finis insinuari ratione maioris confusionis;</item>
+               <item xml:id="evreux-summa-item-1U461y7K">quarto solet aliquis finis insinuari ratione libentioris ministrationis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-L8hd5353" type="witnesses">
+               <list xml:id="evreux-summa-list-g8ntpD7F">
+                  <item xml:id="evreux-summa-item-6NF7CFF5" ana="#V">
+                     <ref n="63r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0129"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-30k2E4o8" ana="#T">
+                     <ref n="139rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508597&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-5m4v0u0i" sameAs="evreux_0050" type="distinctio">
+            <head>Ducere<note>Dominica Xa post Trinitatem; the distinctio itself begins on f.
+                  142vb</note></head>
+            <list xml:id="evreux-summa-list-R2u7NFB0" type="distinctio">
+               <head>Notandum quod homo debet euitare istum malum conductum quo ducitur ad peccatum,
+                  et debet se ponere in ducatu Dei, unde notandum quod quatuor de causis solet se
+                  ponere aliquis in conductu alicuius propter quas spiritualiter debemus nos ponere
+                  in conductu regis, scilicet Dei:</head>
+               <item xml:id="evreux-summa-item-4537LPY6">primo solet aliquis se ponere in conductu alicuius ut ducatur directius;</item>
+               <item xml:id="evreux-summa-item-k3AO8613">secundo solet se ponere homo in conductu alicuius ut ducatur securius;</item>
+               <item xml:id="evreux-summa-item-aF3f3wx0">tertio solet aliquis se ponere in conductu alicuius ut ducatur utilius;</item>
+               <item xml:id="evreux-summa-item-7iLYJ3vF">quarto solet aliquis se ponere in conductu alterius ut parcetur siue hospitetur
+                  meluis. </item>
+            </list>
+            <div xml:id="evreux-summa-div-hl6t0113" type="witnesses">
+               <list xml:id="evreux-summa-list-e7l17234">
+                  <item xml:id="evreux-summa-item-0N18p764" ana="#V">
+                     <ref n="64v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0132"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-b1NuN6N3" ana="#T">
+                     <ref n="142rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508600&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-0uNq85ve" sameAs="evreux_0051" type="distinctio">
+            <head>Saluare<note>Dominica XIa post Trinitatem; the distinctio itself begins on f.
+                  145rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-8PGc8a63" type="distinctio">
+               <head>Notandum quod sicut uidemus corporaliter quod homo solet saluari a morte uel
+                  aliquo periculo quatuor de causis, ita spiritualiter homo saluabitur et poterit
+                  saluari a morte spirituali:</head>
+               <item xml:id="evreux-summa-item-D55ev8Ie">primo solet homo saluari ex uite siue uiuendi ualitudine;</item>
+               <item xml:id="evreux-summa-item-3EK2v76H">secundo solet homo saluari ex resistendi fortitudine;</item>
+               <item xml:id="evreux-summa-item-X03H328P">tertio solet homo saluari ex emendandum promptitudine;</item>
+               <item xml:id="evreux-summa-item-pwUNg4aO">quarto solet homo saluari ex magnorum rogantium multitudine.</item>
+            </list>
+            <div xml:id="evreux-summa-div-sjYJfRX4" type="witnesses">
+               <list xml:id="evreux-summa-list-U62W0ARu">
+                  <item xml:id="evreux-summa-item-bd8w7Vf3" ana="#V">
+                     <ref n="65v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0134"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-R16aWY41" ana="#T">
+                     <ref n="144vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508603&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-2i7b5O6v" sameAs="evreux_0052" type="distinctio">
+            <head>Ministerium<note>Dominica XIIa post Trinitatem; the distinctio itself begins on f.
+                  147va</note>
+            </head>
+            <list xml:id="evreux-summa-list-6o426128" type="distinctio">
+               <head>Notandum quod sicut uidemus quod ad hoc quod aliquis ministerium suum faciat
+                  gratiose in mundo corporaliter quatuor requiruntur, ita ad hoc quod ministerium
+                  nostrum erga Christum faciamus sufficienter illa spiritualiter requiruntur:</head>
+               <item xml:id="evreux-summa-item-40850P54">primo requiritur in officio alicuius mani uite puritas in conseruando;</item>
+               <item xml:id="evreux-summa-item-E023tErr">secundo requiritur in ministro humilitas in emendando;</item>
+               <item xml:id="evreux-summa-item-LR1B6340">tertio requiritur in bono ministro strenuitas operationis;</item>
+               <item xml:id="evreux-summa-item-l6074HH3">quarto requiritur in bono ministro continuitas in perseueratio.</item>
+            </list>
+            <div xml:id="evreux-summa-div-Ln07n50J" type="witnesses">
+               <list xml:id="evreux-summa-list-K13Ja0c3">
+                  <item xml:id="evreux-summa-item-60R6nQub" ana="#V">
+                     <ref n="66v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0136"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-pUY7003T" ana="#T">
+                     <ref n="146vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508605&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-60d15a6n" sameAs="evreux_0053" type="distinctio">
+            <head>Promissio<note>Dominica XIIIa post Trinitatem; the distinctio itself begins on f.
+                  150ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-I42i2783" type="distinctio">
+               <head>Notandum quod sicut uidemus quod aliquis solet pertingere in hoc mundo ad
+                  aliquam dignitatem temporalem quatuor modis, ita ad promissiones Dei que sunt
+                  dignitates eterne et celestes modo consimili spiritualiter loquendo poterimus
+                  uenire:</head>
+               <item xml:id="evreux-summa-item-5x40E28f">primo solet aliquis peruenire ad aliquam dignitatem temporalem propter
+                  speciositatem conuersationis;</item>
+               <item xml:id="evreux-summa-item-2B83g08j">secundo solet aliquis peruenire ad aliquam dignitatem propter strenuitatem
+                  deffensionis;</item>
+               <item xml:id="evreux-summa-item-r6L0582C">tertio solet aliquis peruenire ad aliquam dignitatem propter corrigibilitatem
+                  offensionis;</item>
+               <item xml:id="evreux-summa-item-tU40Ns2G">quarto solet aliquis peruenire ad aliquam dignitatem propter sedulitatem
+                  ministrationis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-6WEx1iLc" type="witnesses">
+               <list xml:id="evreux-summa-list-85a8P542">
+                  <item xml:id="evreux-summa-item-88w4jqmA" ana="#V">
+                     <ref n="68r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0139"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-Ols1wJT4" ana="#T">
+                     <ref n="149rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508607&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-bM6eV3Rr" sameAs="evreux_0054" type="distinctio">
+            <head>Desiderium<note>Dominica XIIIIa post Trinitatem; the distinctio itself begins on
+                  f. 152vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-135o1q5b" type="distinctio">
+               <head>Notandum quod desideria carnis ut dictum est non sunt facienda, sed bona
+                  desideria sunt habenda, unde illud quod sicut uidemus ad senseum quod quatuor
+                  genera hominum corporaliter solent desiderare quatuor, sic loquendo spiritualiter
+                  quatuor debemus desiderare:</head>
+               <item xml:id="evreux-summa-item-8624eP81">primo est desiderium egrotantium qui desiderant sanitatis ad emptionem;</item>
+               <item xml:id="evreux-summa-item-2gBn7yLh">secundo est desiderium conualescentium qui desiderant sanitatis
+                  continuationem;</item>
+               <item xml:id="evreux-summa-item-u283O006">tertio est desiderium egentium qui desiderant diuitis dilectionem;</item>
+               <item xml:id="evreux-summa-item-g7CSNFj4">quarto est desiderium itinerantium qui desiderant ad <unclear>termini</unclear>
+                  peruentionem</item>
+            </list>
+            <div xml:id="evreux-summa-div-08Ai63A7" type="witnesses">
+               <list xml:id="evreux-summa-list-rAI341vI">
+                  <item xml:id="evreux-summa-item-45r3uw4w" ana="#V">
+                     <ref n="69r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0141"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-8kGER62d" ana="#T">
+                     <ref n="152ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508610&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-27582583" sameAs="evreux_0055" type="distinctio">
+            <head>Opus<note>Dominica XVa post Trinitatem; the distinctio itself begins on f.
+                  155rb</note></head>
+            <list xml:id="evreux-summa-list-6TuTJ0mQ" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod quatuor solent considerari in aliquo
+                  opere corporali que faciunt ad eius commendationem que similiter spiritualiter
+                  debet homo uidere et probare quod sint in operibus suis:</head>
+               <item xml:id="evreux-summa-item-yuKF6215">primo solet commendari operatio propter iste preciositatem;</item>
+               <item xml:id="evreux-summa-item-16v0k08M">secundo solet commendari operatio propter forme speciositatem;</item>
+               <item xml:id="evreux-summa-item-p8J01S0Y">tertio solet commendari opus propter utilitatem;</item>
+               <item xml:id="evreux-summa-item-68q0lW4x">quarto solet aliquis commendari opus propter stabilitatem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-056F7Ny7" type="witnesses">
+               <list xml:id="evreux-summa-list-t7OLM0S3">
+                  <item xml:id="evreux-summa-item-6T04S4e8" ana="#V">
+                     <ref n="70v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0144"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-xkhCw333" ana="#T">
+                     <ref n="154vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508613&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-3NCNk6K8" sameAs="evreux_0056" type="distinctio">
+            <head>Non deficere<note>Dominica XVIa post Trinitatem; the distinctio itself begins on
+                  f. 157va</note>
+            </head>
+            <list xml:id="evreux-summa-list-sm17h8K2" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod ad hoc quod homo non defficiat
+                  corporaliter in aliquo opere uel in aliquo arduo negotio et difficili quatuor sunt
+                  adiuuantia, sic ne nos defficiamus in bonis operibus uel temptationibus loquendo
+                  spiritualiter:</head>
+               <item xml:id="evreux-summa-item-8i0A0QF6">primum quod solet hominem confortare ne deficiat est ratio sanationis
+                  recuperande;</item>
+               <item xml:id="evreux-summa-item-L7C6SY20">secundum solet homo confortari ne defficiat ratione fortitudinis
+                  ostendere;</item>
+               <item xml:id="evreux-summa-item-0B11K226">tertium solet homo confortari ne defficiat ratione dilectionis
+                  inueniende;</item>
+               <item xml:id="evreux-summa-item-18QI8I18">quartum solet homo confortari ne defficiat ratione retributionis
+                  recipiende.</item>
+            </list>
+            <div xml:id="evreux-summa-div-3SH6e4O0" type="witnesses">
+               <list xml:id="evreux-summa-list-RM13u48X">
+                  <item xml:id="evreux-summa-item-8i8i00Q0" ana="#V">
+                     <ref n="71v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0146"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-86L5738h" ana="#T">
+                     <ref n="157ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508615&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-8VL272Wg" sameAs="evreux_0057" type="distinctio">
+            <head>Sollicitudo<note>Dominica XVIIa post Trinitatem; the distinctio itself begins on
+                  f. 160ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-KO72q466" type="distinctio">
+               <head>Notandum quod sicut quatuor genera hominum solent esse solliciti circa quatuor
+                  corporaliter, ita debemus de quatuor esse solliciti spiritualiter:</head>
+               <item xml:id="evreux-summa-item-Rkn85y7n">primo debent esse solliciti pulcri homines et domine de pulcritudine
+                  obseruanda;</item>
+               <item xml:id="evreux-summa-item-671dTM85">secundo solent esse solliciti pauperes mercatores de substantia
+                  multiplicanda;</item>
+               <item xml:id="evreux-summa-item-x7RrW132">tertio solent esse solliciti serui de operatione facienda;</item>
+               <item xml:id="evreux-summa-item-0pT460e1">quarto solent esse solliciti de causa expedienda.</item>
+            </list>
+            <div xml:id="evreux-summa-div-B23YH23H" type="witnesses">
+               <list xml:id="evreux-summa-list-127vpyfe">
+                  <item xml:id="evreux-summa-item-0m43e54s" ana="#V">
+                     <ref n="72v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0148"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-22nej3I7" ana="#T">
+                     <ref n="159va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508618&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-A7673524" sameAs="evreux_0058" type="distinctio">
+            <head>Expectare<note>Dominica XVIIIa post Trinitatem; the distinctio itself begins on f.
+                  163rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-0060S3n8" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod expectamus aliquod magnum beneficium
+                  ab aliquo quatuor facere corporaliter, sic illi qui expectant a Deo reuelationem
+                  gaudiorum quatuor debent facere spiritualiter:</head>
+               <item xml:id="evreux-summa-item-hakK61NK">primo qui expectat magnum beneficium ab aliquo debet esse in ipso euitabilitas
+                  reprehensionis;</item>
+               <item xml:id="evreux-summa-item-16wt62Hm">secundo qui expectat aliquod magnum beneficium ab aliquo debet in ipso esse
+                  bonitas operationis;</item>
+               <item xml:id="evreux-summa-item-0IP6CgIL">tertio qui uult aliquod magnum beneficium optinere requiruntur in illo si
+                  mandatur uirilitas deffensionis;</item>
+               <item xml:id="evreux-summa-item-iWow5V02">quarto qui expectat magnum beneficium ab aliquo debet in ipso esse continuitas
+                  dilectionis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-x04J4Ym4" type="witnesses">
+               <list xml:id="evreux-summa-list-2D52fwjp">
+                  <item xml:id="evreux-summa-item-REev6A85" ana="#V">
+                     <ref n="74r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0151"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-o2288t1o" ana="#T">
+                     <ref n="162va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508621&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-bmf1S6Wr" sameAs="evreux_0059" type="distinctio">
+            <head>Induere<note>Dominica XIXa post Trinitatem; the distinctio itself begins on f.
+                  165vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-286xl38D" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod quatuor genera hominum solent se
+                  mouere siuersis indumentis propter quatuor, ita spiritualiter debemus nos induere
+                  quatuor uestibus:</head>
+               <item xml:id="evreux-summa-item-1j55lf8m">primo solent se induere homines ad multiplicandum decorem;</item>
+               <item xml:id="evreux-summa-item-TK8l330P">secundo solet se homo induere armis ad cauendum aduersarium et
+                  proditorem;</item>
+               <item xml:id="evreux-summa-item-3e8lSJUn">tertio solet se homo induere ad ostendendum dolorem;</item>
+               <item xml:id="evreux-summa-item-7630LU80">quarto solet se homo induere propter exercendum laborem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-T18hePK8" type="witnesses">
+               <list xml:id="evreux-summa-list-NI373X61">
+                  <item xml:id="evreux-summa-item-w57k44b7" ana="#V">
+                     <ref n="75v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0154"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-X5cH54q5" ana="#T">
+                     <ref n="165rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508623&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-gG4223IC" sameAs="evreux_0060" type="distinctio">
+            <head>Uidere<note>Dominica XXa post Trinitatem; the distinctio itself begins on f.
+                  168va</note>
+            </head>
+            <list xml:id="evreux-summa-list-wf6X6NRX" type="distinctio">
+               <head>Notandum quod ambulans per aliquam uiam quatuor debet uidere corporaliter aue
+                  ambulans per mundum istum debet uidere spiritualiter:</head>
+               <item xml:id="evreux-summa-item-y1M8ti17">primo debet uidere quod tectam uiam teneat;</item>
+               <item xml:id="evreux-summa-item-D237y10l">secundo debet uidere homo si deuiet quod ad compendium redeat;</item>
+               <item xml:id="evreux-summa-item-wMS86OE5">tertio debet uidere homo ne suum uiaticum pereat;</item>
+               <item xml:id="evreux-summa-item-4h708Ln8">quarto solet homo uidere in uia quod bonum hospicium habeat.</item>
+            </list>
+            <div xml:id="evreux-summa-div-2s6tt1U7" type="witnesses">
+               <list xml:id="evreux-summa-list-5bi42C4e">
+                  <item xml:id="evreux-summa-item-41I2l535" ana="#V">
+                     <ref n="77r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0157"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-7nJTEO58" ana="#T">
+                     <ref n="167vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508626&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-67C0V4f8" sameAs="evreux_0061" type="distinctio">
+            <head>Ambulare<note>Dominica XXa post Trinitatem (de eodem); the distinctio itself
+                  begins on f. 170vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-jh7D5Q17" type="distinctio">
+               <head>Notandum quod sicut uidemus quando aliquis uult ambulare de aliqua regione in
+                  aliquam longinquam solet quatuor obseruare corporaliter, ita certe homo qui uult
+                  ambulare de isto mundo ad celum debet ista obseruare spiritualiter:</head>
+               <item xml:id="evreux-summa-item-1618085o">primo solet considerare temporis aptitudinem;</item>
+               <item xml:id="evreux-summa-item-5OB826w1">secundo debet habere prouisionis ualitudinem;</item>
+               <item xml:id="evreux-summa-item-0p752T0t">tertio debet habere ambulans continuandi fortitudinem;</item>
+               <item xml:id="evreux-summa-item-L41035g2">quarto debet ambulans si deuiauit querere remedii rectitudinem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-5w6j1252" type="witnesses">
+               <list xml:id="evreux-summa-list-quGn54Ss">
+                  <item xml:id="evreux-summa-item-760324X4" ana="#V">
+                     <ref n="78r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0159"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-7Qo4O81y" ana="#T">
+                     <ref n="170va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508629&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-b578p6b2" sameAs="evreux_0062" type="distinctio">
+            <head>Confortare<note>Dominica XXIa post Trinitatem; the distinctio itself begins on f.
+                  173va</note>
+            </head>
+            <list xml:id="evreux-summa-list-7C4B74fW" type="distinctio">
+               <head>Notandum quod sicut uidemus in bello corporali quod quatuor sunt que confortant
+                  hominem et dant sibi cor ut uirilius pugnet, ita quatuor spiritualiter loquendo
+                  confortant hominem in bello spirituali ut uirilius pugnet contra dyabolum et
+                  peccatum:</head>
+               <item xml:id="evreux-summa-item-26027D4U">primum quod confortat hominem in bello corporali est ardor
+                  uindicationis;</item>
+               <item xml:id="evreux-summa-item-227Dxg37">secundum quod confortat hominem est timor dampnationis;</item>
+               <item xml:id="evreux-summa-item-A5g805b0">tertium quod confortat hominem est amor restaurationis;</item>
+               <item xml:id="evreux-summa-item-8071tJ30">quartum quod solet habere hominem confortare est dulcor retributionis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-516fl6v5" type="witnesses">
+               <list xml:id="evreux-summa-list-S71mX4uj">
+                  <item xml:id="evreux-summa-item-28j38tMd" ana="#V">
+                     <ref n="79r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0161"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-6L3c7A47" ana="#T">
+                     <ref n="172vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508631&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-3ER5E71g" sameAs="evreux_0063" type="distinctio">
+            <head>Replere<note>Dominica XXIIa post Trinitatem; the distinctio itself begins on f.
+                  176rb</note>
+            </head>
+            <list xml:id="evreux-summa-list-02G57ISf" type="distinctio">
+               <head>Notandum quod sicut uidemus ad sensum quod aliqua solent repleri aliquibus de
+                  causis corporaliter, ita spiritualiter loquendo quatuor repletiones possumus
+                  inuenire:</head>
+               <item xml:id="evreux-summa-item-6iS71VA1">primo est aliqua repletio que fit ad eiectionem;</item>
+               <item xml:id="evreux-summa-item-DR000370">secundo est quedam repletio que fit ad purgationem;</item>
+               <item xml:id="evreux-summa-item-5vKo4X20">tertio est quedam repletio que fit ad conseruationem;</item>
+               <item xml:id="evreux-summa-item-50770j5o">quarto est quedam repletio que fit ad recreationem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-34Lr1lKE" type="witnesses">
+               <list xml:id="evreux-summa-list-638T57a4">
+                  <item xml:id="evreux-summa-item-rN7YbwAd" ana="#V">
+                     <ref n="80v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0164"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-4i2IhF64" ana="#T">
+                     <ref n="175vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508634&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-H1Q56W08" sameAs="evreux_0064" type="distinctio">
+            <head>Dominus<note>Dominica XXIIIa post Trinitatem; the distinctio itself begins on f.
+                  179ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-44V04yhE" type="distinctio">
+               <head>Notandum, uidemus in mundo quod quatuor conditiones solent comendari in aliquo
+                  domino terreno, qua nobiliori uel excellentiori modo sunt in isto Domino:</head>
+               <item xml:id="evreux-summa-item-a576YB77">primum propter quod solet comendari ad dominus est bonitas
+                  associationis;</item>
+               <item xml:id="evreux-summa-item-RF4uh7mD">secundum quod est comendabile in bono domino est fidelitas defensionis;</item>
+               <item xml:id="evreux-summa-item-s0E61333">tertium quod est comendabile in bono domino est facilitas remissionis;</item>
+               <item xml:id="evreux-summa-item-0ru8l5V0">quartum quod est comendabile in aliquo domino est fertilitas
+                  remunerationis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-248QGd30" type="witnesses">
+               <list xml:id="evreux-summa-list-B41MV4kb">
+                  <item xml:id="evreux-summa-item-666lB457" ana="#V">
+                     <ref n="82r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0167"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-2S0x0566" ana="#T">
+                     <ref n="178rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508636&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-8t348S4D" sameAs="evreux_0065" type="distinctio">
+            <head>Crescere<note>Dominica XXIIIIa post Trinitatem; the distinctio itself begins on f.
+                  181va</note></head>
+            <list xml:id="evreux-summa-list-h34d7558" type="distinctio">
+               <head>Notandum quod sicut uidemus naturaliter quod ad hoc quod aliqua arbor uel herba
+                  crescat uel fructificat quatuor iuuant et perficiunt, sic spiritualiter ad hoc
+                  quod homo crescat et perfectum incrementum perueniat quatuor concurrunt et
+                  adiuuant:</head>
+               <item xml:id="evreux-summa-item-33R0Nnj4">primum quod ualet ad hoc quod aliqua arbor crescat uel proficiat est congruitas
+                  regionis;</item>
+               <item xml:id="evreux-summa-item-4t2084Y7">secundum quod iuuat ad hoc quod arbor uel herba crescat est ubertas
+                  irrigationis;</item>
+               <item xml:id="evreux-summa-item-t3121Vbw">tertium quod ualet ad hoc quod arbor crescat est firmitas plantationis;</item>
+               <item xml:id="evreux-summa-item-7O32e3QK">quartum quod ualet ad hoc quod arbor crescat est sedulitas putationis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-kd30C060" type="witnesses">
+               <list xml:id="evreux-summa-list-7R552n84">
+                  <item xml:id="evreux-summa-item-5IEsG4x8" ana="#V">
+                     <ref n="83r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0169"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-1EO70T40" ana="#T">
+                     <ref n="180vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508639&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-H323KQ5P" sameAs="evreux_0066" type="distinctio">
+            <head>Iudicium<note>Dominica XXVa post Trinitatem; the distinctio itself begins on f.
+                  184rb</note></head>
+            <list xml:id="evreux-summa-list-V88vD4f8" type="distinctio">
+               <head>Notandum quod sicut uidemus in mundo ad hoc quod aliquis possit euadere
+                  iudicium corporale sine morte quatuor iuuant et sunt necessaria, similiter ad hoc
+                  quod homo iudicandus in illo iudicio possit ipsum secure expectare loquendo
+                  spiritualiter illa quatuor requiruntur:</head>
+               <item xml:id="evreux-summa-item-2VIY2klx">primo solet homo euadere iudicium corporale propter morum comendationem;</item>
+               <item xml:id="evreux-summa-item-r8hGA4Y0">secundo solet homo euadere iudicium corporale et secure expectare propter
+                  bonorum sustentationem;</item>
+               <item xml:id="evreux-summa-item-5Nn0L00B">tertio solet homo euadere iudicium corporale uel secure expectare propter
+                  suorum malefactorum correctionem;</item>
+               <item xml:id="evreux-summa-item-M3462BVA">quarto solet homo euadere iudicium corporale et secure expectare propter
+                  extremorum donationem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-2ba055WT" type="witnesses">
+               <list xml:id="evreux-summa-list-6m7068xR">
+                  <item xml:id="evreux-summa-item-fJaQb305" ana="#V">
+                     <ref n="84v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0172"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-tn66c725" ana="#T">
+                     <ref n="183vb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508642&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-24m806Yr" sameAs="evreux_0067" type="distinctio">
+            <head>Iudicium<note>Dominica XXVa post Trinitatem (de eodem); the distinctio itself
+                  begins on f. </note>
+            </head>
+            <list xml:id="evreux-summa-list-TSr3D30e" type="distinctio">
+               <head>Notandum quod sicut uidemus in mundo quod aliquod mundi solet timeri propter
+                  quatuor propter que similiter debemus timere iudicium Dei et illud
+                  precauere:</head>
+               <item xml:id="evreux-summa-item-N5J8qwMx">primum est propter iudicantis immensitatem;</item>
+               <item xml:id="evreux-summa-item-1316hN2S">secundo solet timeri iudicium propter omnem iniquitatem;</item>
+               <item xml:id="evreux-summa-item-2414hR12">tertio solet timeri iudicium propter testimonium multiplicitatem;</item>
+               <item xml:id="evreux-summa-item-Q52o5yE1">quarto solet timeri iudicium propter pene inflicte crudelitatem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-26G32Ayv" type="witnesses">
+               <list xml:id="evreux-summa-list-OHSfR5y1">
+                  <item xml:id="evreux-summa-item-h58Y011T" ana="#V">
+                     <ref n="85v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0174"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-h5Q8F7f5" ana="#T">
+                     <ref n="186ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508644&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-jk040CkD" sameAs="evreux_0068" type="distinctio">
+            <head>Suscipere<note>In purificatione beate Marie; the distinctio itself begins on f.
+                  312va</note>
+            </head>
+            <list xml:id="evreux-summa-list-647Nyn76" type="distinctio">
+               <head>Notandum quod sicut uidemus corporaliter quod ad hoc quod aliquis homo possit
+                  sufficienter ab alio suscipi quatuor necessario requiruntur que etiam
+                  spiritualiter loquendo sunt necessarie ad hoc quod iste Dominus ad nobis ualeat
+                  sufficienter suscipi:</head>
+               <item xml:id="evreux-summa-item-3B53IlN8">primo requirit in suo hospicio locum gratiosum;</item>
+               <item xml:id="evreux-summa-item-s8X0bf24">secundo requirit homo nobilis cibum preciosum;</item>
+               <item xml:id="evreux-summa-item-2Mp5xMa6">tertio requirit officium curiosum;</item>
+               <item xml:id="evreux-summa-item-o3TWMJ6l">quarto requirit uultum amorosum.</item>
+            </list>
+            <div xml:id="evreux-summa-div-0Ak7W3sm" type="witnesses">
+               <list xml:id="evreux-summa-list-8714X5Y8">
+                  <item xml:id="evreux-summa-item-4l8kN06r" ana="#V">
+                     <ref n="86v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0176"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-n67byUqS" ana="#T">
+                     <ref n="312ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508770&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-5K6f0bc1" sameAs="evreux_0069" type="distinctio">
+            <head>Certare<note>In purificatione beate Marie; the distinctio itself begins on f.
+                  315ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-37DjA746" type="distinctio">
+               <head>Notandum quod ad hoc quod aliquis sufficienter certare possit corporaliter
+                  quatuor necessario requiruntur, ita requiruntur spiritualiter quatuor ad
+                  certandum:</head>
+               <item xml:id="evreux-summa-item-YV8k8v0m">primum est ut sit sobrietas in comedendo;</item>
+               <item xml:id="evreux-summa-item-25P3146H">secundum est sociorum audacitas in adiuuando;</item>
+               <item xml:id="evreux-summa-item-47T68GIx">tertium est sagacitas in impunando;</item>
+               <item xml:id="evreux-summa-item-h5f87Y32">quartum est continuitas in defendendo.</item>
+            </list>
+            <div xml:id="evreux-summa-div-t80f2TE6" type="witnesses">
+               <list xml:id="evreux-summa-list-J07660W1">
+                  <item xml:id="evreux-summa-item-m837jS23" ana="#V">
+                     <ref n="87v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0178"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-42n3Wo7t" ana="#T">
+                     <ref n="314va" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508773&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-030oTYXt" sameAs="evreux_0070" type="distinctio">
+            <head>Stella<note>De sancto Dominico confessore; the distinctio itself begins on f.
+                  318vb</note>
+            </head>
+            <list xml:id="evreux-summa-list-GDxDGQw3" type="distinctio">
+               <head>Notandum quod beatus Dominicus et quilibet religiosus potest dici stella
+                  propter quatuor proprietates et conditiones que in stellis reperiuntur que fuerunt
+                  in ipso et debet esse in quolibet:</head>
+               <item xml:id="evreux-summa-item-8ej0XVjm">primo stelle habent in situ sublimitatem;</item>
+               <item xml:id="evreux-summa-item-0j322402">secundo habent stelle in lumine claritatem;</item>
+               <item xml:id="evreux-summa-item-C88G48e8">tertio stelle quantum ad uisum habent apparentem puritatem;</item>
+               <item xml:id="evreux-summa-item-P3782B3h">quarto stelle habent in motu regularitatem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-6CGl8A45" type="witnesses">
+               <list xml:id="evreux-summa-list-i0u2Un60">
+                  <item xml:id="evreux-summa-item-86Je27JS" ana="#V">
+                     <ref n="89r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0181"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-20D64205" ana="#T">
+                     <ref n="318ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508776&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-T384GQP0" sameAs="evreux_0071" type="distinctio">
+            <head>Columba<note>In assumptione beate Marie Uirginis; the distinctio itself begins on
+                  f. 322ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-0i30J008" type="distinctio">
+               <head>Notandum quod beata Uirgo comparatur columbe propter quatuor proprietates que
+                  reperiuntur in columba que fuerunt in ipsa et debent esse in qualibet fideli
+                  anima:</head>
+               <item xml:id="evreux-summa-item-P84b5Did">primo columba caret fellis amritudine;</item>
+               <item xml:id="evreux-summa-item-WR24f62P">secundo columba est fecunda in prolis multitudine;</item>
+               <item xml:id="evreux-summa-item-31IC6524">tertio columba gemit pro uocis modulamine;</item>
+               <item xml:id="evreux-summa-item-p588j787">quarto columba regreditur ad locum ex consuetudine.</item>
+            </list>
+            <div xml:id="evreux-summa-div-w568e27V" type="witnesses">
+               <list xml:id="evreux-summa-list-a80D0528">
+                  <item xml:id="evreux-summa-item-7760442O" ana="#V">
+                     <ref n="90v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0184"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-1SgyxBR0" ana="#T">
+                     <ref n="321ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508779&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-16d5v65o" sameAs="evreux_0072" type="distinctio">
+            <head>Fons<note>In natiuitate Beate Marie Uirginis; the distinctio itself begins on f.
+                  325ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-3CE3G170" type="distinctio">
+               <head>Nota quod beata Uirgo comparatur fonti propter quatuor proprietates que in aqua
+                  fontis pre aliis aquis excellentius sunt reperte:</head>
+               <item xml:id="evreux-summa-item-73231h4G">primo aqua fontis pre aliis aquis solet quantum ad mundiciam esse
+                  purior;</item>
+               <item xml:id="evreux-summa-item-7Th257Ho">secundo aqua fontis est pre aliis quantum ad <app>
+                     <rdg wit="#T">splendorem</rdg>
+                  </app> lucidior;</item>
+               <item xml:id="evreux-summa-item-511XN00V">tertio aqua fontis pre aliis est quantum ad indeficientiam uberior;</item>
+               <item xml:id="evreux-summa-item-E3x2nb23">quarto aqua fontis pre aliis aquis quantum ad efficaciam est frigidior.</item>
+            </list>
+            <div xml:id="evreux-summa-div-F17GWnf0" type="witnesses">
+               <list xml:id="evreux-summa-list-gaUK1X3e">
+                  <item xml:id="evreux-summa-item-06m3134c" ana="#V">
+                     <ref n="91v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0186"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-720E601J" ana="#T">
+                     <ref n="324rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508782&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-8q07nH00" sameAs="evreux_0073" type="distinctio">
+            <head>Uidere<note>In festo angelorum; the distinctio itself begins on f. 328ra</note>
+            </head>
+            <list xml:id="evreux-summa-list-K6n8203J" type="distinctio">
+               <head>Notandum quod sicut uidemus in mundo naturaliter quod quatuor genera hominum
+                  solent faciliter uidere faciem alicuius magni principis, ita spiritualiter
+                  loquendo quatuor genera hominum pertingent ad uidendum faciem Dei que est
+                  beatitudo omni:</head>
+               <item xml:id="evreux-summa-item-kKj78244">primo solet homo uidere faciem alicuius magni propter generis
+                  affinitatem;</item>
+               <item xml:id="evreux-summa-item-8ED036FT">secundo solet aliquis homo uideri ab alio propter persone nobilitatem;</item>
+               <item xml:id="evreux-summa-item-g1483Bg4">tertio solet aliquis ab aliquo uideri propter emende uel homagii
+                  fidelitatem;</item>
+               <item xml:id="evreux-summa-item-35JlOTk0">quarto solet aliquis ab aliquo uideri propter seruicii sedulitatem.</item>
+            </list>
+            <div xml:id="evreux-summa-div-7i5AdTKn" type="witnesses">
+               <list xml:id="evreux-summa-list-o45x60u6">
+                  <item xml:id="evreux-summa-item-303j3H0E" ana="#V">
+                     <ref n="93v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0190"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-f0kQYEF8" ana="#T">
+                     <ref n="327rb" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508785&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-02404155" sameAs="evreux_0074" type="distinctio">
+            <head>Deducere<note>De quolibet confessore sancto; the distinctio itself begins on f.
+                  330va</note>
+            </head>
+            <list xml:id="evreux-summa-list-51074j63" type="distinctio">
+               <head>Dicit hic 'Iustum' etc., in quibus uerbis quatuor tanguntur que sunt necessaria
+                  ad hoc quod aliquis per aliquam uiam competenter deducatur que spiritualiter
+                  fuerunt in isto sancto et debet esse in quolibet qui uult bene deduci per mundum
+                  istum:</head>
+               <item xml:id="evreux-summa-item-4Wd43p17">primo, qui uult deducsici bene corporaliter oportet quod comitiuam defensiuam
+                  habeat;</item>
+               <item xml:id="evreux-summa-item-38p4Rbn3">secundo, qui uult bene duci ab aliquo oportet quod sapienter se
+                  contineat;</item>
+               <item xml:id="evreux-summa-item-54N0G0J8">tertio, ad hoc quod aliquis sufficienter deducatur requiritur quod rectam uiam
+                  teneat;</item>
+               <item xml:id="evreux-summa-item-2UP20R42">quarto requiritur ad hoc quod aliquis sufficienter ducatur quod ad terminum
+                  ueniat.</item>
+            </list>
+            <div xml:id="evreux-summa-div-D7JkEx75" type="witnesses">
+               <list xml:id="evreux-summa-list-747w738x">
+                  <item xml:id="evreux-summa-item-S031Xs1k" ana="#V">
+                     <ref n="95r" target="https://digi.vatlib.it/view/MSS_Borgh.340/0193"/>
+                  </item>
+                  <item xml:id="evreux-summa-item-357A56E3" ana="#T">
+                     <ref n="330ra" target="https://bvmm.irht.cnrs.fr/consult/consult.php?mode=ecran&amp;panier=false&amp;reproductionId=1808&amp;VUE_ID=508788&amp;carouselThere=false&amp;nbVignettes=tout&amp;page=1&amp;angle=0&amp;zoom=moyen&amp;tailleReelle="/>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div xml:id="evreux-summa-div-86y15302" sameAs="evreux_0075" type="distinctio">
+            <head>Uirga<note>Not in ms. Troyes, BM, 1305.</note>
+            </head>
+            <list xml:id="evreux-summa-list-M5OYppe5" type="distinctio">
+               <head>Sicut uidemus quod aliquis homo non potest progredi ad aliquam locum propter
+                  quatuor impedimenta corporali, ita homo non potest progredi ad paradisum propter
+                  quatuor que per peccatum contraxerat, per que uirgam crucis sunt
+                     <unclear>te...ca</unclear> sed <unclear>bedam</unclear> propter pecatum
+                  incurrunt quatuor incommoda, ignorantiam folie, maliciam, impotentia, et ex hiis
+                  conflatam concupiscentiam, propter ista homo non poterat regredi as
+                  superna:</head>
+               <item xml:id="evreux-summa-item-yqI388e2">primum propter quod non potest homo regredi ad aliquam locum corporaliter est
+                  defectus illuminationis;</item>
+               <item xml:id="evreux-summa-item-BK1N7yVO">secundum propter quod non potest homo regredi ad aliquam locum est obliquitas
+                  deuiationis;</item>
+               <item xml:id="evreux-summa-item-36M0q4Eh">tertium propter quod non potest aliquis regredi ad aliquam locum est
+                  continuitas infirmationis;</item>
+               <item xml:id="evreux-summa-item-j2206S0n">quartum propter quod non potest homo regredi ad aliquam locum est uiolentia
+                  detentionis.</item>
+            </list>
+            <div xml:id="evreux-summa-div-cvllC057" type="witnesses">
+               <list xml:id="evreux-summa-list-e47BM22D">
+                  <item xml:id="evreux-summa-item-kB26281Q" ana="#V">
+                     <ref n="92v" target="https://digi.vatlib.it/view/MSS_Borgh.340/0188"/>
+                  </item>
+               </list>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
