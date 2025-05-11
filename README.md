@@ -22,7 +22,8 @@ project/
 │
 ├── notebooks/                # все Jupyter-ноутбуки
 ├── evalatin2024-latinpipe/  # внешний репозиторий с моделью EvaLatin
-└── README.md```
+└── README.md
+```
 
 Все ноутбуки находятся в папке notebooks/ и организованы по шагам:
 
